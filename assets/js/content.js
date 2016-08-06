@@ -10,7 +10,7 @@ var CONTENT = {
             target_lang   : 'zh-tw'
         },
         about_me: {
-            quote: 'Also known as Jing Bo Yen. Is a developer and traveller.',
+            quote: 'Also known as Jing Bo Yen. Is a developer and traveler.',
             learn_more : 'Learn more',
             visit_blog : 'Visit my blog'
         },
@@ -36,7 +36,7 @@ var CONTENT = {
                     img_src   : 'images/works/ntust-lost.png',
                     link_to   : 'http://lost.ntust.edu.tw',
                     title     : 'NTUST Lost and Found System',
-                    text      : 'Development started around 2013, got online around 2014. Now severed as the official lost and found system in the NTUST and maintain by the Student Affairs Office',
+                    text      : 'Development started around 2013, got online around 2014. Now served as the official lost and found system in the NTUST and maintained by the Student Affairs Office',
                     link_text : 'Visit system',
                     enabled   : true
                 },
