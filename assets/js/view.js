@@ -38,6 +38,11 @@ initLanguage(function(CURRENT_LANG) {
         data: CONTENT[CURRENT_LANG].sidebar
     });
 
+    var footer_section = new Vue({
+        el  : '#footer',
+        data: CONTENT[CURRENT_LANG].sidebar
+    });
+
     var about_me_section = new Vue({
         el  : '#about_me',
         data: CONTENT[CURRENT_LANG].about_me
@@ -65,7 +70,7 @@ $(function(){
         event.preventDefault();
     });
     // Switch Lang
-    $(document).on('click', '#switch_lang', function(event) {
+    $(document).on('click', '.switch_lang', function(event) {
         location.href = '?lang=' + $(this).data('target');
     });
 });
