@@ -248,37 +248,37 @@ var CONTENT = {
                 {
                     title : '台北桂桂科技(PyPAT)有限公司 大數據分析及系統管理',
                     date  : '2015.9 - 2016.1',
-                    text  : '- Develop tools to extract and process big amount of patent data using Node.js and Python. <br/>- Build and administrate several ElasticSearch server on Amazon EC2.',
+                    text  : '- 使用 Node.js 取得及處理大量專利資料<br/>- 建置並管理 Amazon EC2 及 ElasticSearch 伺服器',
                     link  : 'http://pypat.com/',
                     link_text : 'PyPAT 公司介紹'
                 },
                 {
-                    title : 'Taipei, Billows Technology Co., Ltd, Full Stack Developer',
+                    title : '台北竣盟科技股份有限公司 全端網頁工程師',
                     date  : '2015.5 - 2016.2',
-                    text  : '- Maintain existing products with natvie PHP and ElasticSearch. <br/>- Develop new product with Laravel. <br/>- Maintaining serveral ESXi VM host and client',
+                    text  : '- 使用 Native PHP 及 ElasticSearch 維護公司產品 <br/>- 使用 Laravel 開發新產品 <br/>- 維護並管理 ESXi 虛擬機',
                     link  : 'http://billows.com.tw/',
-                    link_text : 'Visit Billows'
+                    link_text : 'Billows 公司介紹'
                 },
                 {
-                    title : 'Taipei, Hacks in Taiwan Conference (HITCON) 2015, Interpreter',
+                    title : '2015 台灣駭客年會(HITCON) 中英口譯員',
                     date  : '2015.8.26 - 29',
-                    text  : 'Provide simultaneous interpreting for both English and Chinese.',
+                    text  : '提供會議中英文同步口譯',
                     link  : 'https://hitcon.org/2015/',
-                    link_text : 'Visit HITCON'
+                    link_text : 'HITCON 介紹'
                 },
                 {
-                    title : 'New York, National Model United Nations (NMUN) 2015, Head of NTUST delegation',
+                    title : '2015 紐約國際模擬聯合國會議(NMUN) 台科代表團團長',
                     date  : '2015.3.29 - 4.2',
-                    text  : 'As the head of NTUST delegation to NMUN 2015, I\'m responsible for both academic training and administration affairs.',
+                    text  : '率領台科大代表團共十人赴紐約聯合國總部參加 NMUN。負責出團前之學術訓練及行政工作',
                     link  : 'http://www.nmun.org/nmun_ny.html',
-                    link_text : 'Visit NMUN'
+                    link_text : 'NMUN 介紹'
                 },
                 {
-                    title : 'Taipei, Students\' Information Technology Conference (STICON), Agenda Committee',
+                    title : '學生計算機年會(SITCON) 議程組',
                     date  : '2014 - 2016',
-                    text  : 'The founding purpose and goal of SITCON is to provide a platform for students who are interested in IT to speak and promote their work. Therefore, the Agenda Committee have done our best job to pick and select every outstanding paper which we had received.',
+                    text  : 'SITCON 學生計算機年會係一學生自發組成的研討會，秉持著以學生為主軸的核心價值，藉以凝聚與傳遞學生的力量',
                     link  : 'http://sitcon.org/',
-                    link_text : 'Visit STICON'
+                    link_text : 'STICON 介紹'
                 }
             ]
         }
