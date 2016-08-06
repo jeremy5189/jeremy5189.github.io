@@ -17,6 +17,14 @@ var CONTENT = {
         my_works_section: {
             work_list: [
                 {
+                    img_src   : 'images/works/paywhich_icon_gray.png',
+                    link_to   : 'http://paywhich.pw',
+                    title     : 'PayWhich WebApp',
+                    text      : 'Taiwan credit card foreign transaction fee calculator. Automatically retrieve official currency exchange rate from MasterCard, VISA and JCB',
+                    link_text : 'Link to PayWhich',
+                    enabled   : true
+                },
+                {
                     img_src   : 'images/works/hahow-backend.png',
                     link_to   : 'https://hahow.in/cr/laravel-backend',
                     title     : 'Laravel Backend Web Development for Beginner (Online Video Course)',
@@ -50,12 +58,12 @@ var CONTENT = {
                 },
                 {
                     img_src   : 'images/works/ntust-patent.png',
-                    link_to   : '#',
+                    link_to   : 'javascript:void(0);',
                     title     : 'NTUST Interactive Seat Selection System',
                     text      : 'This is a temperary activity site for NTUST Collage of IP. Providing interactive conference room seats selection for attendees.',
                     link_text : 'Site offline',
-                    enabled   : false
-                },
+                    enabled   : true
+                }
             ]
         },
         what_i_know: {
@@ -159,6 +167,14 @@ var CONTENT = {
         my_works_section: {
             work_list: [
                 {
+                    img_src   : 'images/works/paywhich_icon_gray.png',
+                    link_to   : 'http://paywhich.pw',
+                    title     : 'PayWhich WebApp',
+                    text      : 'PayWhich 是您在國外使用台灣信用卡的好幫手。PayWhich 會自動取得最新的 VISA / Master / JCB 之匯率，同時儲存您所輸入的信用卡基本資料。並幫助您在結帳時，根據最新國際組織匯率換算，幫助您在多張信用卡中選擇一張最划算的卡片。',
+                    link_text : '前往 PayWhich',
+                    enabled   : true
+                },
+                {
                     img_src   : 'images/works/hahow-backend.png',
                     link_to   : 'https://hahow.in/cr/laravel-backend',
                     title     : 'Hahow Laravel 後端網頁設計入門課程講師',
@@ -192,12 +208,12 @@ var CONTENT = {
                 },
                 {
                     img_src   : 'images/works/ntust-patent.png',
-                    link_to   : '#',
+                    link_to   : 'javascript:void(0)',
                     title     : '臺灣科技大學專利所互動選位系統',
                     text      : '由臺科大專利所委託製作之研討會報名選位系統，能快速處理研討會報名及加速對帳流程，並提供參加者互動式選擇會議廳座位之功能',
-                    link_text : 'Site offline',
-                    enabled   : false
-                },
+                    link_text : '網站暫時離線',
+                    enabled   : true
+                }
             ]
         },
         what_i_know: {
@@ -269,7 +285,7 @@ var CONTENT = {
                 {
                     title : '2015 紐約國際模擬聯合國會議(NMUN) 台科代表團團長',
                     date  : '2015.3.29 - 4.2',
-                    text  : '率領台科大代表團共十人赴紐約聯合國總部參加 NMUN。負責出團前之學術訓練及行政工作',
+                    text  : '率領台科大代表團共十人赴紐約聯合國總部參加 NMUN，負責出團前之學術訓練及行政工作',
                     link  : 'http://www.nmun.org/nmun_ny.html',
                     link_text : 'NMUN 介紹'
                 },

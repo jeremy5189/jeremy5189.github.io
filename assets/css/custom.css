@@ -1,19 +1,21 @@
 /* Color Override */
 body {
-    background-color: #1F427F;
+    background-color: #212d42;
 }
 #sidebar {
-    background: #1F427F !important;
+    background: #212d42 !important;
 }
 .wrapper.style2 {
     background-color: #3E84FF !important;
 }
 .wrapper.style3 {
-    background-color: #8BB5FF !important;
+    background-color: rgb(27, 52, 92) !important;
 }
 .wrapper.style4 {
-    background-color: #455B7F;
+    /*background-color: #8BB5FF;*/
+    background-color: rgba(139, 181, 255, 0.9);
 }
+
 .wrapper.style5 {
     background-color: #326ACC;
 }
@@ -66,6 +68,10 @@ span.reverse {
     font-size: 1.2em !important;
 }
 
+.my_works_section h2 {
+    font-size: 1.5em !important;
+}
+
 .my_experince_section p {
     margin-bottom: 1.5em !important;
 }
@@ -94,7 +100,7 @@ span.reverse {
     left:0px;
     bottom:0px;
     right:0px;
-    background-color:rgba(0, 0, 0, 0.5);
+    background-color:rgba(0, 0, 0, 0.3);
 }
 
 .work_image:hover {
@@ -103,4 +109,24 @@ span.reverse {
 
 #about_me h1 {
     margin-bottom: 0.3em !important;
+}
+
+.spotlights > section:nth-child(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.spotlights > section:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#sidebar nav a {
+    font-size: 0.6em;
+}
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button,
+.button {
+    border-color: rgba(255, 255, 255, 0.4) !important;
 }
