@@ -17,18 +17,18 @@ var CONTENT = {
         my_works_section: {
             work_list: [
                 {
-                    img_src   : 'images/works/hahow-frontend.png',
-                    link_to   : 'https://hahow.in/cr/frontend-web-starter',
-                    title     : 'Frontend Web Development for Beginner (Online Video Course)',
-                    text      : 'Achived 350 student signup for this online video course within 30 days.',
+                    img_src   : 'images/works/hahow-backend.png',
+                    link_to   : 'https://hahow.in/cr/laravel-backend',
+                    title     : 'Laravel Backend Web Development for Beginner (Online Video Course)',
+                    text      : 'Achived 100 student signup for this online video course within 30 days.',
                     link_text : 'View course page',
                     enabled   : true
                 },
                 {
-                    img_src   : 'images/works/hahow-backend.png',
-                    link_to   : 'https://hahow.in/cr/laravel-backend',
-                    title     : 'Laravel Backend Web Development for Beginner (Online Video Course)',
-                    text      : 'Achived --- student signup for this online video course within 30 days.',
+                    img_src   : 'images/works/hahow-frontend.png',
+                    link_to   : 'https://hahow.in/cr/frontend-web-starter',
+                    title     : 'Frontend Web Development for Beginner (Online Video Course)',
+                    text      : 'Achived 350 student signup for this online video course within 30 days.',
                     link_text : 'View course page',
                     enabled   : true
                 },
@@ -159,18 +159,18 @@ var CONTENT = {
         my_works_section: {
             work_list: [
                 {
-                    img_src   : 'images/works/hahow-frontend.png',
-                    link_to   : 'https://hahow.in/cr/frontend-web-starter',
-                    title     : 'Hahow 前端網頁設計入門課程講師',
-                    text      : '線上課程開課募資一個月內達標 1000%，目前已順利開課',
-                    link_text : '檢視課程頁面',
-                    enabled   : true
-                },
-                {
                     img_src   : 'images/works/hahow-backend.png',
                     link_to   : 'https://hahow.in/cr/laravel-backend',
                     title     : 'Hahow Laravel 後端網頁設計入門課程講師',
                     text      : '線上課程募資開始後 10 天即達標，目前備課中',
+                    link_text : '檢視課程頁面',
+                    enabled   : true
+                },
+                {
+                    img_src   : 'images/works/hahow-frontend.png',
+                    link_to   : 'https://hahow.in/cr/frontend-web-starter',
+                    title     : 'Hahow 前端網頁設計入門課程講師',
+                    text      : '線上課程開課募資一個月內達標 1000%，目前已順利開課',
                     link_text : '檢視課程頁面',
                     enabled   : true
                 },
