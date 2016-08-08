@@ -19,7 +19,6 @@ body {
     /*background-color: #8BB5FF;*/
     background-color: rgba(139, 181, 255, 0.9);
 }
-
 .wrapper.style5 {
     background-color: #326ACC;
 }
@@ -37,6 +36,9 @@ body {
 }
 #footer li {
     color: white;
+}
+.spotlights > section > .image:before {
+    background: rgba(0, 0, 0, 0.4) !important;
 }
 
 /* Rounded avatars */
