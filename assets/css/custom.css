@@ -37,8 +37,9 @@ body {
 #footer li {
     color: white;
 }
+/* IMG 黑影 */
 .spotlights > section > .image:before {
-    background: rgba(0, 0, 0, 0.4) !important;
+    background: rgba(0, 0, 0, 0.6) !important;
 }
 
 /* Rounded avatars */
