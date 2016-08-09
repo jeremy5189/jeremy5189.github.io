@@ -7,7 +7,8 @@ var CONTENT = {
             my_experience : 'My Experience',
             contact_me    : 'Contact Me',
             switch_lang   : '切換語言',
-            target_lang   : 'zh-tw'
+            target_lang   : 'zh-tw',
+            back_to_top   : 'Back To Top'
         },
         about_me: {
             quote: 'Also known as Jing Bo Yen. Is a developer and traveler.',
@@ -157,7 +158,8 @@ var CONTENT = {
             my_experience : '經歷',
             contact_me    : '聯絡我',
             switch_lang   : 'English',
-            target_lang   : 'en'
+            target_lang   : 'en',
+            back_to_top   : '返回頁首'
         },
         about_me: {
             quote: 'Also known as Jing Bo Yen. Is a developer and traveller.',
