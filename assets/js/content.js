@@ -29,7 +29,7 @@ var CONTENT = {
                     img_src   : 'images/works/hahow-backend.png',
                     link_to   : 'https://hahow.in/cr/laravel-backend',
                     title     : 'Laravel Backend Web Development for Beginner (Online Video Course)',
-                    text      : 'Achived 100 student signup for this online video course within 30 days.',
+                    text      : 'Achived over 250 student signup for this online video course within 30 days.',
                     link_text : 'View course page',
                     enabled   : true
                 },
@@ -180,7 +180,7 @@ var CONTENT = {
                     img_src   : 'images/works/hahow-backend.png',
                     link_to   : 'https://hahow.in/cr/laravel-backend',
                     title     : 'Hahow Laravel 後端網頁設計入門課程講師',
-                    text      : '線上課程募資開始後 10 天即達標，目前備課中',
+                    text      : '線上課程募資開始後 10 天即達標，募資結束後募得 250 位學生，目前仍持續增加中',
                     link_text : '檢視課程頁面',
                     enabled   : true
                 },
@@ -188,7 +188,7 @@ var CONTENT = {
                     img_src   : 'images/works/hahow-frontend.png',
                     link_to   : 'https://hahow.in/cr/frontend-web-starter',
                     title     : 'Hahow 前端網頁設計入門課程講師',
-                    text      : '線上課程開課募資一個月內達標 1000%，目前已順利開課',
+                    text      : '線上課程開課募資一個月內達標 1000%，目前已順利開課，同學反應及討論非常熱烈',
                     link_text : '檢視課程頁面',
                     enabled   : true
                 },
