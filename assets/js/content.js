@@ -29,7 +29,7 @@ var CONTENT = {
                     img_src   : 'images/works/hahow-backend.png',
                     link_to   : 'https://hahow.in/cr/laravel-backend',
                     title     : 'Laravel Backend Web Development for Beginner (Online Video Course)',
-                    text      : 'Achived over 250 student signup for this online video course within 30 days.',
+                    text      : 'Achieved over 250 student signup for this online video course within 30 days.',
                     link_text : 'View course page',
                     enabled   : true
                 },
@@ -37,7 +37,7 @@ var CONTENT = {
                     img_src   : 'images/works/hahow-frontend.png',
                     link_to   : 'https://hahow.in/cr/frontend-web-starter',
                     title     : 'Frontend Web Development for Beginner (Online Video Course)',
-                    text      : 'Achived 350 student signup for this online video course within 30 days.',
+                    text      : 'Achieved 350 (Over 1000% of initial estimation) student signup for this online video course within 30 days.',
                     link_text : 'View course page',
                     enabled   : true
                 },
@@ -106,39 +106,46 @@ var CONTENT = {
         my_experince_section: {
             experiences: [
                 {
-                    title : 'Germany, Technical University of Cologne (TH Köln), Exchange Student',
+                    title : 'Cologne, Germany; Technical University of Cologne (TH Köln), Exchange Student',
                     date  : '2016.3 - 2016.8',
                     text  : 'Major: International Business',
                     link  : 'https://www.th-koeln.de/',
                     link_text : 'Visit TH Köln'
                 },
                 {
-                    title : 'Taipei, PyPAT IP Services, Big Data System Administrator',
+                    title : 'Taipei, Taiwan; PyPAT IP Services, Big Data System Administrator',
                     date  : '2015.9 - 2016.1',
                     text  : '- Develop tools to extract and process big amount of patent data using Node.js and Python. <br/>- Build and administrate several ElasticSearch server on Amazon EC2.',
                     link  : 'http://pypat.com/',
                     link_text : 'Visit PyPAT'
                 },
                 {
-                    title : 'Taipei, Billows Technology Co., Ltd, Full Stack Developer',
+                    title : 'Taipei, Taiwan; Billows Technology Co., Ltd, Full Stack Developer',
                     date  : '2015.5 - 2016.2',
                     text  : '- Maintain existing products with natvie PHP and ElasticSearch. <br/>- Develop new product with Laravel. <br/>- Maintaining serveral ESXi VM host and client',
                     link  : 'http://billows.com.tw/',
                     link_text : 'Visit Billows'
                 },
                 {
-                    title : 'Taipei, Hacks in Taiwan Conference (HITCON) 2015, Interpreter',
+                    title : 'Taipei, Taiwan; Hacks in Taiwan Conference (HITCON) 2015, Interpreter',
                     date  : '2015.8.26 - 29',
                     text  : 'Provide simultaneous interpreting for both English and Chinese.',
                     link  : 'https://hitcon.org/2015/',
                     link_text : 'Visit HITCON'
                 },
                 {
-                    title : 'New York, National Model United Nations (NMUN) 2015, Head of NTUST delegation',
+                    title : 'New York, U.S.; National Model United Nations (NMUN) 2015, Head of NTUST delegation',
                     date  : '2015.3.29 - 4.2',
                     text  : 'As the head of NTUST delegation to NMUN 2015, I\'m responsible for both academic training and administration affairs.',
                     link  : 'http://www.nmun.org/nmun_ny.html',
                     link_text : 'Visit NMUN'
+                },
+                {
+                    title : 'Tokushima, Japan; University of Tokushima, Visiting Student',
+                    date  : '2014.8.1 - 8.11',
+                    text  : 'I was recommended by the office of International affairs office of NTUST to visit the University of Tokushima in Japan for two weeks.',
+                    link  : 'http://www.tokushima-u.ac.jp/english/',
+                    link_text: 'Visit Tokushima-U'
                 },
                 {
                     title : 'Taipei, Students\' Information Technology Conference (STICON), Agenda Committee',
@@ -290,6 +297,13 @@ var CONTENT = {
                     text  : '率領台科大代表團共十人赴紐約聯合國總部參加 NMUN，負責出團前之學術訓練及行政工作',
                     link  : 'http://www.nmun.org/nmun_ny.html',
                     link_text : 'NMUN 介紹'
+                },
+                {
+                    title : '日本德島大學 暑期訪問學生',
+                    date  : '2014.8.1 - 8.11',
+                    text  : '經由台科大國際事務處推薦參與日本德島大學暑期課程',
+                    link  : 'http://www.tokushima-u.ac.jp/english/',
+                    link_text: '德島大學官網'
                 },
                 {
                     title : '學生計算機年會(SITCON) 議程組',
