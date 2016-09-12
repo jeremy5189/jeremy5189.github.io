@@ -113,18 +113,18 @@ var CONTENT = {
                     link_text : 'Visit TH Köln'
                 },
                 {
-                    title : 'Taipei, Taiwan; PyPAT IP Services, Big Data System Administrator',
-                    date  : '2015.9 - 2016.1',
-                    text  : '- Develop tools to extract and process big amount of patent data using Node.js and Python. <br/>- Build and administrate several ElasticSearch server on Amazon EC2.',
-                    link  : 'http://pypat.com/',
-                    link_text : 'Visit PyPAT'
-                },
-                {
                     title : 'Taipei, Taiwan; Billows Technology Co., Ltd, Full Stack Developer',
                     date  : '2015.5 - 2016.2',
                     text  : '- Maintain existing products with natvie PHP and ElasticSearch. <br/>- Develop new product with Laravel. <br/>- Maintaining serveral ESXi VM host and client',
                     link  : 'http://billows.com.tw/',
                     link_text : 'Visit Billows'
+                },
+                {
+                    title : 'Taipei, Taiwan; PyPAT IP Services, Big Data System Administrator',
+                    date  : '2015.9 - 2016.1',
+                    text  : '- Develop tools to extract and process big amount of patent data using Node.js and Python. <br/>- Build and administrate several ElasticSearch server on Amazon EC2.',
+                    link  : 'http://pypat.com/',
+                    link_text : 'Visit PyPAT'
                 },
                 {
                     title : 'Taipei, Taiwan; Hacks in Taiwan Conference (HITCON) 2015, Interpreter',
@@ -271,18 +271,18 @@ var CONTENT = {
                     link_text : '科隆科技大學網站'
                 },
                 {
-                    title : '台北桂桂科技(PyPAT)有限公司 大數據分析及系統管理',
-                    date  : '2015.9 - 2016.1',
-                    text  : '- 使用 Node.js 取得及處理大量專利資料<br/>- 建置並管理 Amazon EC2 及 ElasticSearch 伺服器',
-                    link  : 'http://pypat.com/',
-                    link_text : 'PyPAT 公司介紹'
-                },
-                {
                     title : '台北竣盟科技股份有限公司 全端網頁工程師',
                     date  : '2015.5 - 2016.2',
                     text  : '- 使用 Native PHP 及 ElasticSearch 維護公司產品 <br/>- 使用 Laravel 開發新產品 <br/>- 維護並管理 ESXi 虛擬機',
                     link  : 'http://billows.com.tw/',
                     link_text : 'Billows 公司介紹'
+                },
+                {
+                    title : '台北桂桂科技(PyPAT)有限公司 大數據分析及系統管理',
+                    date  : '2015.9 - 2016.1',
+                    text  : '- 使用 Node.js 取得及處理大量專利資料<br/>- 建置並管理 Amazon EC2 及 ElasticSearch 伺服器',
+                    link  : 'http://pypat.com/',
+                    link_text : 'PyPAT 公司介紹'
                 },
                 {
                     title : '2015 台灣駭客年會(HITCON) 中英口譯員',
