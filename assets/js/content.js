@@ -115,12 +115,12 @@ var CONTENT = {
                 {
                     title : 'Taipei, Taiwan; Billows Technology Co., Ltd, Full Stack Developer',
                     date  : '2015.5 - 2016.2',
-                    text  : '- Maintain existing products with natvie PHP and ElasticSearch. <br/>- Develop new product with Laravel. <br/>- Maintaining serveral ESXi VM host and client',
+                    text  : '- Maintain existing products with native PHP and ElasticSearch. <br/>- Develop new product with Laravel. <br/>- Maintaining serveral ESXi VM host and client',
                     link  : 'http://billows.com.tw/',
                     link_text : 'Visit Billows'
                 },
                 {
-                    title : 'Taipei, Taiwan; PyPAT IP Services, Big Data System Administrator',
+                    title : 'Taipei, Taiwan; PyPAT IP Services, System Administrator',
                     date  : '2015.9 - 2016.1',
                     text  : '- Develop tools to extract and process big amount of patent data using Node.js and Python. <br/>- Build and administrate several ElasticSearch server on Amazon EC2.',
                     link  : 'http://pypat.com/',
