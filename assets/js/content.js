@@ -79,7 +79,7 @@ var CONTENT = {
                 {
                     icon  : 'codepen',
                     title : 'Node.js / Sails.js',
-                    text  : 'Two years of Node.js experience, both backend development and big data analysis.'
+                    text  : 'Two years of Node.js experience, both backend development and data analysis.'
                 },
                 {
                     icon  : 'code-fork',
@@ -237,7 +237,7 @@ var CONTENT = {
                 {
                     icon  : 'codepen',
                     title : 'Node.js / Sails.js',
-                    text  : '兩年 Node.js 開發經驗，曾使用 Sails.js 開發網頁後端，也曾使用 Node.js 做大數據分析'
+                    text  : '兩年 Node.js 開發經驗，曾使用 Sails.js 開發網頁後端，也曾使用 Node.js 做數據分析'
                 },
                 {
                     icon  : 'code-fork',
@@ -278,7 +278,7 @@ var CONTENT = {
                     link_text : 'Billows 公司介紹'
                 },
                 {
-                    title : '台北桂桂科技(PyPAT)有限公司 大數據分析及系統管理',
+                    title : '台北桂桂科技(PyPAT)有限公司 數據分析及系統管理',
                     date  : '2015.9 - 2016.1',
                     text  : '- 使用 Node.js 取得及處理大量專利資料<br/>- 建置並管理 Amazon EC2 及 ElasticSearch 伺服器',
                     link  : 'http://pypat.com/',
