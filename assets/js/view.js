@@ -78,4 +78,8 @@ $(function(){
     $(document).on('click', '.switch_lang', function(event) {
         location.href = '?lang=' + $(this).data('target');
     });
+	// Visit Slides
+	$(document).on('click', '#link_to_slide', function(event) {
+		location.href = '/slides';
+	});
 });

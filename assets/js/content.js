@@ -7,6 +7,7 @@ var CONTENT = {
             my_experience : 'My Experience',
             contact_me    : 'Contact Me',
             switch_lang   : '切換語言',
+            my_slides     : 'My Slides',
             target_lang   : 'zh-tw',
             back_to_top   : 'Back To Top'
         },
@@ -165,6 +166,7 @@ var CONTENT = {
             my_experience : '經歷',
             contact_me    : '聯絡我',
             switch_lang   : 'English',
+            my_slides     : '簡報',
             target_lang   : 'en',
             back_to_top   : '返回頁首'
         },
@@ -186,8 +188,8 @@ var CONTENT = {
                 {
                     img_src   : 'images/works/hahow-backend.png',
                     link_to   : 'https://hahow.in/cr/laravel-backend',
-                    title     : 'Hahow Laravel 後端網頁設計入門課程講師',
-                    text      : '線上課程募資開始後 10 天即達標，募資結束後募得 250 位學生，目前仍持續增加中',
+                    title     : 'Hahow Laravel 5.3 後端網站設計入門課程講師',
+                    text      : '線上課程募資開始後 10 天即達標，募資結束後募得 300 位學生，目前已順利開課',
                     link_text : '檢視課程頁面',
                     enabled   : true
                 },
