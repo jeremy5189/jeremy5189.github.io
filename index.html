@@ -61,8 +61,8 @@
 					<div class="inner">
 						<h2>{{ work.title }}</h2>
 						<p>{{ work.text }}</p>
-						<ul class="actions" v-if="work.enabled">
-							<li><a href="{{ work.link_to }}" target="_blank" class="button">{{ work.link_text }}</a></li>
+						<ul class="actions" v-if="work.enabled" >
+							<li v-for="item in work.buttons"><a href="{{ item.link_to }}" target="_blank" class="button">{{ item.link_text }}</a></li>
 						</ul>
 					</div>
 				</div>

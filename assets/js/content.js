@@ -19,52 +19,96 @@ var CONTENT = {
         my_works_section: {
             work_list: [
                 {
+                    img_src   : 'images/works/sensortag-websocket.png',
+                    title     : 'IoT made easy: RPi, Sensortag, Websocket with Node.js',
+                    text      : 'My talk at SITCON x HK @ CityU. Introducing how Raspberry Pi 3 can connect to a TI sensortag via bluetooth by Node.js. And how to stream real time data to the browser using Websocket.',
+                    enabled   : true,
+                    buttons   : [
+                        {
+                            link_text : 'SITCON x HK',
+                            link_to   : 'http://hk.sitcon.org/2016/#!/topic/IoT'
+                        },
+                        {
+                            link_text : 'Github',
+                            link_to   : 'https://github.com/jeremy5189/Sensortag-Websocket'
+                        }
+                    ]
+                },
+                {
                     img_src   : 'images/works/paywhich_icon_gray.png',
-                    link_to   : 'http://paywhich.pw',
                     title     : 'PayWhich WebApp',
                     text      : 'Taiwan credit card foreign transaction fee calculator. Automatically retrieve official currency exchange rate from MasterCard, VISA and JCB',
-                    link_text : 'Link to PayWhich',
-                    enabled   : true
+                    enabled   : true,
+                    buttons   : [
+                        {
+                            link_to   : 'http://paywhich.pw',
+                            link_text : 'Link to PayWhich'
+                        },
+                        {
+                            link_text : 'Github',
+                            link_to   : 'https://github.com/jeremy5189/PayWhich'
+                        }
+                    ]
                 },
                 {
                     img_src   : 'images/works/hahow-backend.png',
-                    link_to   : 'https://hahow.in/cr/laravel-backend',
                     title     : 'Laravel Backend Web Development for Beginner (Online Video Course)',
                     text      : 'Achieved over 250 student signup for this online video course within 30 days.',
-                    link_text : 'View course page',
-                    enabled   : true
+                    enabled   : true,
+                    buttons   : [
+                        {
+                            link_to   : 'https://hahow.in/cr/laravel-backend',
+                            link_text : 'View course page'
+                        }
+                    ]
                 },
                 {
                     img_src   : 'images/works/hahow-frontend.png',
-                    link_to   : 'https://hahow.in/cr/frontend-web-starter',
                     title     : 'Frontend Web Development for Beginner (Online Video Course)',
                     text      : 'Achieved 350 (Over 1000% of initial estimation) student signup for this online video course within 30 days.',
-                    link_text : 'View course page',
-                    enabled   : true
+                    enabled   : true,
+                    buttons   : [
+                        {
+                            link_to   : 'https://hahow.in/cr/frontend-web-starter',
+                            link_text : 'View course page'
+                        }
+                    ]
                 },
                 {
                     img_src   : 'images/works/ntust-lost.png',
-                    link_to   : 'http://lost.ntust.edu.tw',
                     title     : 'NTUST Lost and Found System',
                     text      : 'Development started around 2013, got online around 2014. Now served as the official lost and found system in the NTUST and maintained by the Student Affairs Office',
-                    link_text : 'Visit system',
-                    enabled   : true
+                    enabled   : true,
+                    buttons   : [
+                        {
+                            link_to   : 'http://lost.ntust.edu.tw',
+                            link_text : 'Visit system'
+                        }
+                    ]
                 },
                 {
                     img_src   : 'images/works/bi_charts.jpg',
-                    link_to   : 'http://billows.com.tw/',
                     title     : 'Billows Security Portal / Log Master',
                     text      : 'Company product, see website for more detail.',
-                    link_text : 'Product details',
-                    enabled   : true
+                    enabled   : true,
+                    buttons   : [
+                        {
+                            link_to   : 'http://billows.com.tw/',
+                            link_text : 'Product details'
+                        }
+                    ]
                 },
                 {
                     img_src   : 'images/works/ntust-patent.png',
-                    link_to   : 'javascript:void(0);',
                     title     : 'NTUST Interactive Seat Selection System',
                     text      : 'This is a temperary activity site for NTUST Collage of IP. Providing interactive conference room seats selection for attendees.',
-                    link_text : 'Site offline',
-                    enabled   : true
+                    enabled   : true,
+                    buttons   : [
+                        {
+                            link_to   : 'javascript:void(0);',
+                            link_text : 'Site offline'
+                        }
+                    ]
                 }
             ]
         },
@@ -79,8 +123,8 @@ var CONTENT = {
                 },
                 {
                     icon  : 'codepen',
-                    title : 'Node.js / Sails.js',
-                    text  : 'Two years of Node.js experience, both backend development and data analysis.'
+                    title : 'Node.js',
+                    text  : 'Two years of Node.js experience, both backend development (Express.js, Sails.js) and data analysis.'
                 },
                 {
                     icon  : 'code-fork',
@@ -106,6 +150,13 @@ var CONTENT = {
         },
         my_experince_section: {
             experiences: [
+                {
+                    title : 'Taipei, Taiwan; KPMG Taiwan IT Advisory in Management & Risk Consulting, Intern Researcher',
+                    date  : '2016.9 ~ Present',
+                    text  : 'Current work',
+                    link  : 'https://home.kpmg.com/tw/zh/home.html',
+                    link_text : 'KPMG Taiwan'
+                },
                 {
                     title : 'Cologne, Germany; Technical University of Cologne (TH Köln), Exchange Student',
                     date  : '2016.3 - 2016.8',
@@ -178,52 +229,92 @@ var CONTENT = {
         my_works_section: {
             work_list: [
                 {
+                    img_src   : 'images/works/sensortag-websocket.png',
+                    title     : 'IoT made easy: RPi, Sensortag, Websocket with Node.js',
+                    text      : '擔任 SITCON x HK @ 香港城市大學講者。介紹 IoT, BLE 並示範如何使用 Raspberry Pi 3 藍芽連接至 TI Sensortag 然後將感測器資料利用 WebSocket 即時送至前端。',
+                    enabled   : true,
+                    buttons   : [
+                        {
+                            link_text : 'SITCON x HK',
+                            link_to   : 'http://hk.sitcon.org/2016/#!/topic/IoT'
+                        },
+                        {
+                            link_text : 'Github',
+                            link_to   : 'https://github.com/jeremy5189/Sensortag-Websocket'
+                        }
+                    ]
+                },
+                {
                     img_src   : 'images/works/paywhich_icon_gray.png',
-                    link_to   : 'http://paywhich.pw',
                     title     : 'PayWhich WebApp',
                     text      : 'PayWhich 是您在國外使用台灣信用卡的好幫手。PayWhich 會自動取得最新的 VISA / Master / JCB 之匯率，同時儲存您所輸入的信用卡基本資料。並幫助您在結帳時，根據最新國際組織匯率換算，幫助您在多張信用卡中選擇一張最划算的卡片。',
-                    link_text : '前往 PayWhich',
-                    enabled   : true
+                    enabled   : true,
+                    buttons   : [
+                        {
+                            link_to   : 'http://paywhich.pw',
+                            link_text : '前往 PayWhich'
+                        }
+                    ]
                 },
                 {
                     img_src   : 'images/works/hahow-backend.png',
-                    link_to   : 'https://hahow.in/cr/laravel-backend',
                     title     : 'Hahow Laravel 5.3 後端網站設計入門課程講師',
                     text      : '線上課程募資開始後 10 天即達標，募資結束後募得 300 位學生，目前已順利開課',
-                    link_text : '檢視課程頁面',
-                    enabled   : true
+                    enabled   : true,
+                    buttons   : [
+                        {
+                            link_to   : 'https://hahow.in/cr/laravel-backend',
+                            link_text : '檢視課程頁面'
+                        }
+                    ]
                 },
                 {
                     img_src   : 'images/works/hahow-frontend.png',
-                    link_to   : 'https://hahow.in/cr/frontend-web-starter',
                     title     : 'Hahow 前端網頁設計入門課程講師',
                     text      : '線上課程開課募資一個月內達標 1000%，目前已順利開課，同學反應及討論非常熱烈',
-                    link_text : '檢視課程頁面',
-                    enabled   : true
+                    enabled   : true,
+                    buttons   : [
+                        {
+                            link_to   : 'https://hahow.in/cr/frontend-web-starter',
+                            link_text : '檢視課程頁面'
+                        }
+                    ]
                 },
                 {
                     img_src   : 'images/works/ntust-lost.png',
-                    link_to   : 'http://lost.ntust.edu.tw',
                     title     : '臺灣科技大學失物招領系統',
                     text      : '2013 年底開始開發，2014 年中正式上線，目前是臺科大官方遺失物招領系統，由學務處負責日常更新',
-                    link_text : '前往系統',
-                    enabled   : true
+                    enabled   : true,
+                    buttons   : [
+                        {
+                            link_to   : 'http://lost.ntust.edu.tw',
+                            link_text : '前往系統'
+                        }
+                    ]
                 },
                 {
                     img_src   : 'images/works/bi_charts.jpg',
-                    link_to   : 'http://billows.com.tw/',
                     title     : '竣盟科技 Security Portal / Log Master',
                     text      : '任職於竣盟科技時所負責的產品，細節請參考公司網站',
-                    link_text : '前往公司網站',
-                    enabled   : true
+                    enabled   : true,
+                    buttons   : [
+                        {
+                            link_to   : 'http://billows.com.tw/',
+                            link_text : '前往公司網站'
+                        }
+                    ]
                 },
                 {
                     img_src   : 'images/works/ntust-patent.png',
-                    link_to   : 'javascript:void(0)',
                     title     : '臺灣科技大學專利所互動選位系統',
                     text      : '由臺科大專利所委託製作之研討會報名選位系統，能快速處理研討會報名及加速對帳流程，並提供參加者互動式選擇會議廳座位之功能',
-                    link_text : '網站暫時離線',
-                    enabled   : true
+                    enabled   : true,
+                    buttons   : [
+                        {
+                            link_to   : 'javascript:void(0)',
+                            link_text : '網站暫時離線'
+                        }
+                    ]
                 }
             ]
         },
@@ -238,8 +329,8 @@ var CONTENT = {
                 },
                 {
                     icon  : 'codepen',
-                    title : 'Node.js / Sails.js',
-                    text  : '兩年 Node.js 開發經驗，曾使用 Sails.js 開發網頁後端，也曾使用 Node.js 做數據分析'
+                    title : 'Node.js',
+                    text  : '兩年 Node.js 開發經驗，曾使用 Sails.js, Express.js 開發網頁後端，也曾使用 Node.js 做數據分析'
                 },
                 {
                     icon  : 'code-fork',
@@ -265,6 +356,13 @@ var CONTENT = {
         },
         my_experince_section: {
             experiences: [
+                {
+                    title : 'KPMG 資訊科技諮詢服務 實習研究員',
+                    date  : '2016.9 ~ Present',
+                    text  : '現職',
+                    link  : 'https://home.kpmg.com/tw/zh/home.html',
+                    link_text : 'KPMG Taiwan'
+                },
                 {
                     title : '德國科隆科技大學 交換學生',
                     date  : '2016.3 - 2016.8',
