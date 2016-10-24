@@ -5,6 +5,9 @@
 	<title>About Jeremy Yen</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<link rel="stylesheet" href="outdated-browser/outdatedbrowser/outdatedbrowser.min.css">
+
 	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="stylesheet" href="assets/css/custom.css" />
@@ -145,6 +148,36 @@
 			</ul>
 		</div>
 	</footer>
+
+	<!-- ============= Outdated Browser ============= -->
+	<div id="outdated"></div>
+
+	<script src="outdated-browser/outdatedbrowser/outdatedbrowser.min.js"></script>
+	<script>
+	//event listener: DOM ready
+	function addLoadEvent(func) {
+	    var oldonload = window.onload;
+	    if (typeof window.onload != 'function') {
+	        window.onload = func;
+	    } else {
+	        window.onload = function() {
+	            if (oldonload) {
+	                oldonload();
+	            }
+	            func();
+	        }
+	    }
+	}
+	//call plugin function after DOM ready
+	addLoadEvent(function(){
+	    outdatedBrowser({
+	        bgColor: '#f25648',
+	        color: '#ffffff',
+	        lowerThan: 'transform',
+	        languagePath: 'your_path/outdatedbrowser/lang/en.html'
+	    })
+	});
+	</script>
 
 	<!-- Scripts -->
 	<script src="assets/js/jquery.min.js"></script>
