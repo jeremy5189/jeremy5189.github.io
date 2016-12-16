@@ -19,6 +19,18 @@ var CONTENT = {
         my_works_section: {
             work_list: [
                 {
+                  img_src   : 'images/works/cloudmun_gsl.png',
+                  title     : 'CloudMUN - The Next Generation Cloud-based Model United Nations Conference System',
+                  text      : 'I started this project since 2015 to develop a professional MUN conference WebApp. Currently I worked with serveral friends to provide service to MUN conferences.',
+                  enabled   : true,
+                  buttons   : [
+                      {
+                          link_text : 'CloudMUN',
+                          link_to   : 'https://cloudmun.com.tw'
+                      }
+                  ]
+                },
+                {
                     img_src   : 'images/works/sensortag-websocket.png',
                     title     : 'IoT made easy: RPi, Sensortag, Websocket with Node.js',
                     text      : 'My talk at SITCON x HK @ CityU. Introducing how Raspberry Pi 3 can connect to a TI sensortag via bluetooth by Node.js. And how to stream real time data to the browser using Websocket.',
@@ -179,8 +191,8 @@ var CONTENT = {
                     link_text : 'Visit PyPAT'
                 },
                 {
-                    title : 'Taipei, Taiwan; Hacks in Taiwan Conference (HITCON) 2015, Interpreter',
-                    date  : '2015.8.26 - 29',
+                    title : 'Taipei, Taiwan; Hacks in Taiwan Conference (HITCON) 2015 - 2016, Interpreter',
+                    date  : '2015.8 / 2016.12',
                     text  : 'Provide simultaneous interpreting for both English and Chinese.',
                     link  : 'https://hitcon.org/2015/',
                     link_text : 'Visit HITCON'
@@ -228,6 +240,18 @@ var CONTENT = {
         },
         my_works_section: {
             work_list: [
+                {
+                  img_src   : 'images/works/cloudmun_gsl.png',
+                  title     : 'CloudMUN - 雲端模聯會議系統',
+                  text      : '2015 年初我獨自開始開發，目標是利用做出一個 WebApp 式的專業的會議系統。目前我和幾位朋友一同營運和維護 CloudMUN，對許多舉辦會議的組織和客戶提供專業服務。',
+                  enabled   : true,
+                  buttons   : [
+                      {
+                          link_text : 'CloudMUN',
+                          link_to   : 'https://cloudmun.com.tw'
+                      }
+                  ]
+                },
                 {
                     img_src   : 'images/works/sensortag-websocket.png',
                     title     : 'IoT made easy: RPi, Sensortag, Websocket with Node.js',
@@ -385,8 +409,8 @@ var CONTENT = {
                     link_text : 'PyPAT 公司介紹'
                 },
                 {
-                    title : '2015 台灣駭客年會(HITCON) 中英口譯員',
-                    date  : '2015.8.26 - 29',
+                    title : '2015 - 2016 台灣駭客年會(HITCON) 中英口譯員',
+                    date  : '2015.8 / 2016.12',
                     text  : '提供會議中英文同步口譯',
                     link  : 'https://hitcon.org/2015/',
                     link_text : 'HITCON 介紹'
