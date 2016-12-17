@@ -20,7 +20,9 @@ var initLanguage = function(callback) {
     var lang = navigator.language || navigator.userLanguage;
     console.log('Browser Langauge: ' + lang);
 
-    if ( lang != 'zh-tw' ) {
+	lang = lang.toLowerCase();
+
+    if ( lang !== 'zh-tw' ) {
         lang = 'en';
         console.log('Fall back to: ' + lang);
     }

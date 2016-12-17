@@ -27,7 +27,11 @@ var CONTENT = {
                       {
                           link_text : 'CloudMUN',
                           link_to   : 'https://cloudmun.com.tw'
-                      }
+                      },
+					  {
+						  link_text : 'Facebook',
+						  link_to   : 'https://www.facebook.com/cloudmun.com.tw'
+					  }
                   ]
                 },
                 {
@@ -248,8 +252,12 @@ var CONTENT = {
                   buttons   : [
                       {
                           link_text : 'CloudMUN',
-                          link_to   : 'https://cloudmun.com.tw'
-                      }
+                          link_to   : 'https://cloudmun.com.tw/zh/'
+                      },
+					  {
+						  link_text : 'Facebook',
+						  link_to   : 'https://www.facebook.com/cloudmun.com.tw'
+					  }
                   ]
                 },
                 {
