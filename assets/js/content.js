@@ -21,7 +21,7 @@ var CONTENT = {
                 {
                   img_src   : 'images/works/cloudmun_gsl.png',
                   title     : 'CloudMUN - The Next Generation Cloud-based Model United Nations Conference System',
-                  text      : 'I started this project since 2015 to develop a professional MUN conference WebApp. Currently I worked with serveral friends to provide service to MUN conferences.',
+                  text      : 'I started this project since 2015 to develop a professional MUN conference WebApp featuring Google Docs like realtime syncing. Currently I worked with serveral friends to provide service to MUN conferences.',
                   enabled   : true,
                   buttons   : [
                       {
@@ -247,7 +247,7 @@ var CONTENT = {
                 {
                   img_src   : 'images/works/cloudmun_gsl.png',
                   title     : 'CloudMUN - 雲端模聯會議系統',
-                  text      : '2015 年初我獨自開始開發，目標是利用做出一個 WebApp 式的專業的會議系統。目前我和幾位朋友一同營運和維護 CloudMUN，對許多舉辦會議的組織和客戶提供專業服務。',
+                  text      : '2015 年初我獨自開始開發，目標是做一個擁有 Google 文件即時同步功能的專業會議系統。目前我和幾位朋友一同營運和維護 CloudMUN，對許多舉辦會議的組織和客戶提供專業服務。',
                   enabled   : true,
                   buttons   : [
                       {
