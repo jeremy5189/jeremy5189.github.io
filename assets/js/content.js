@@ -20,7 +20,7 @@ var CONTENT = {
     my_works_section: {
       work_list: [{
           img_src: 'images/works/pdmod.png',
-          title: 'PDModerator',
+          title: 'PDModerator - Panel Discussion Moderator',
           text: 'PDModerator (PDMod) is a conference software developed for SITCON 2017 Panel Discussion. PDMod aims to provide equal speaking rights to every attendee in the conference room. Attendee can submit speaker application via the PDMod interface. Which was later review by the moderator and been put on the speaker queue.',
           enabled: true,
           buttons: [{
@@ -29,6 +29,15 @@ var CONTENT = {
           }, {
             link_text: 'Keynote',
             link_to: 'https://speakerdeck.com/jeremy5189/how-we-hacked-a-forum'
+          }]
+        }, {
+          img_src: 'images/works/booking-hack.jpg',
+          title: 'Booking.com Taipei Hack 2nd Prize',
+          text: 'In the two days hackathon, I lead team 1 along with 4 member and developed a hotel version of doodle with React, Lumen and Native Android.',
+          enabled: true,
+          buttons: [{
+            link_text: 'Keynote',
+            link_to: 'https://speakerdeck.com/jeremy5189/bdecisive-booking-dot-com-taipei-hack-2nd-prize'
           }]
         }, {
           img_src: 'images/works/vegeholic.png',
@@ -248,7 +257,7 @@ var CONTENT = {
     my_works_section: {
       work_list: [{
           img_src: 'images/works/pdmod.png',
-          title: 'PDModerator',
+          title: 'PDModerator - 論壇發言系統',
           text: 'PDModerator 是我為 SITCON 2017 論壇開發的發言系統。PDMod 致力於會議或論壇中提供所有參與者平等的發言權利。與會者透過系統介面提出發言申請後，所提交的資訊會即時送至主持人介面，由主持人審核後排入發言佇列。發言佇列介面會透過投影機展示給所有參與者，即時呈現最近六位發言者、目前發言者以及計時器剩餘時間。',
           enabled: true,
           buttons: [{
@@ -257,6 +266,15 @@ var CONTENT = {
           }, {
             link_text: 'Keynote',
             link_to: 'https://speakerdeck.com/jeremy5189/how-we-hacked-a-forum'
+          }]
+        }, {
+          img_src: 'images/works/booking-hack.jpg',
+          title: 'Booking.com 台北黑客松第二名',
+          text: '為期兩天的黑客松中，我擔任 PM 兼任 Backend，與 Team 1 四位朋友分工合作，利用 React, Lumen 和 Native Android 開發了一套飯店版的 Doodle - BDecisive，協助旅伴快速規劃行程及預定飯店。',
+          enabled: true,
+          buttons: [{
+            link_text: 'Keynote',
+            link_to: 'https://speakerdeck.com/jeremy5189/bdecisive-booking-dot-com-taipei-hack-2nd-prize'
           }]
         }, {
           img_src: 'images/works/vegeholic.png',
