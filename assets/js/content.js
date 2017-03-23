@@ -19,6 +19,18 @@ var CONTENT = {
     },
     my_works_section: {
       work_list: [{
+          img_src: 'images/works/pdmod.png',
+          title: 'PDModerator',
+          text: 'PDModerator (PDMod) is a conference software developed for SITCON 2017 Panel Discussion. PDMod aims to provide equal speaking rights to every attendee in the conference room. Attendee can submit speaker application via the PDMod interface. Which was later review by the moderator and been put on the speaker queue.',
+          enabled: true,
+          buttons: [{
+            link_text: 'Github',
+            link_to: 'https://github.com/jeremy5189/PDModerator'
+          }, {
+            link_text: 'Keynote',
+            link_to: 'https://speakerdeck.com/jeremy5189/how-we-hacked-a-forum'
+          }]
+        }, {
           img_src: 'images/works/vegeholic.png',
           title: 'Vegeholic Vegan Recipe',
           text: 'Attracts over 20k unique visitor in the first 2 weeks. I developed a part of the front-end and the whole back-end system of this recipe sharing website. Running Laravel on AWS EC2 along with RDS and storing user uploaded image in S3 and delivered by Cloudfront.',
@@ -116,16 +128,6 @@ var CONTENT = {
           buttons: [{
             link_to: 'http://billows.com.tw/',
             link_text: 'Product details'
-          }]
-        },
-        {
-          img_src: 'images/works/ntust-patent.png',
-          title: 'NTUST Interactive Seat Selection System',
-          text: 'This is a temperary activity site for NTUST Collage of IP. Providing interactive conference room seats selection for attendees.',
-          enabled: true,
-          buttons: [{
-            link_to: 'javascript:void(0);',
-            link_text: 'Site offline'
           }]
         }
       ]
@@ -245,6 +247,18 @@ var CONTENT = {
     },
     my_works_section: {
       work_list: [{
+          img_src: 'images/works/pdmod.png',
+          title: 'PDModerator',
+          text: 'PDModerator 是我為 SITCON 2017 論壇開發的發言系統。PDMod 致力於會議或論壇中提供所有參與者平等的發言權利。與會者透過系統介面提出發言申請後，所提交的資訊會即時送至主持人介面，由主持人審核後排入發言佇列。發言佇列介面會透過投影機展示給所有參與者，即時呈現最近六位發言者、目前發言者以及計時器剩餘時間。',
+          enabled: true,
+          buttons: [{
+            link_text: 'Github',
+            link_to: 'https://github.com/jeremy5189/PDModerator'
+          }, {
+            link_text: 'Keynote',
+            link_to: 'https://speakerdeck.com/jeremy5189/how-we-hacked-a-forum'
+          }]
+        }, {
           img_src: 'images/works/vegeholic.png',
           title: 'Vegeholic 全植食尚',
           text: 'Vegeholic 上線半個月即吸引超過 2 萬不重複訪客。我負責建置此食譜分享平台之後端基礎建設及一部分的前端設計，使用 AWS EC2 執行 Laravel，採用 AWS RDS 資料庫以及利用 S3 和 Cloudfront 儲存使用者上傳之圖片。目前仍持續維護並加上新功能。',
@@ -337,16 +351,6 @@ var CONTENT = {
           buttons: [{
             link_to: 'http://billows.com.tw/',
             link_text: '前往公司網站'
-          }]
-        },
-        {
-          img_src: 'images/works/ntust-patent.png',
-          title: '臺灣科技大學專利所互動選位系統',
-          text: '由臺科大專利所委託製作之研討會報名選位系統，能快速處理研討會報名及加速對帳流程，並提供參加者互動式選擇會議廳座位之功能',
-          enabled: true,
-          buttons: [{
-            link_to: 'javascript:void(0)',
-            link_text: '網站暫時離線'
           }]
         }
       ]
