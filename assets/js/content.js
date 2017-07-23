@@ -1,3 +1,4 @@
+var last_update_time = '2017.07.23';
 var CONTENT = {
   'en': {
     sidebar: {
@@ -10,7 +11,7 @@ var CONTENT = {
       my_slides: 'My Slides',
       target_lang: 'zh-tw',
       back_to_top: 'Back To Top',
-      latest_update: '2017.03.04',
+      latest_update: last_update_time,
     },
     about_me: {
       quote: 'Also known as Jing Bo Yen. Is a developer and traveler.',
@@ -177,10 +178,17 @@ var CONTENT = {
       ]
     },
     my_experince_section: {
-      experiences: [{
+      experiences: [{ 
+          title: 'Taipei, Taiwan;  Glossika, Full Stack Developer',
+          date: '2017.7 ~ Present',
+          text: 'Full time developer, working on both Laravel for WebApp and developing language traning algorithm with Python.',
+          link: 'http://glossika.com',
+          link_text: 'Glossika'
+        },
+        {
           title: 'Taipei, Taiwan; KPMG Taiwan IT Advisory in Management & Risk Consulting, Intern Researcher',
-          date: '2016.9 ~ Present',
-          text: 'Current work',
+          date: '2016.9 ~ 2017.6',
+          text: 'While working in the department (319C). I was engaged in serveral projects, including the ISO-17025 certification process for the KPMG Cyber Security Lab, First bank ATM incident, CTBC Common Reporting Standard (CRS) and was also repsonsible for translation of serveral Infosec auditing reports.',
           link: 'https://home.kpmg.com/tw/zh/home.html',
           link_text: 'KPMG Taiwan'
         },
@@ -206,8 +214,8 @@ var CONTENT = {
           link_text: 'Visit PyPAT'
         },
         {
-          title: 'Taipei, Taiwan; Hacks in Taiwan Conference (HITCON) 2015 - 2016, Interpreter',
-          date: '2015.8 / 2016.12',
+          title: 'Taipei, Taiwan; Hacks in Taiwan Conference (HITCON) 2015 - 2017, Interpreter',
+          date: '2015.8 / 2016.12 / 2017.8',
           text: 'Provide simultaneous interpreting for both English and Chinese.',
           link: 'https://hitcon.org/2015/',
           link_text: 'Visit HITCON'
@@ -247,7 +255,7 @@ var CONTENT = {
       my_slides: '簡報',
       target_lang: 'en',
       back_to_top: '返回頁首',
-      latest_update: '2017.03.04',
+      latest_update: last_update_time,
     },
     about_me: {
       quote: 'Also known as Jing Bo Yen. Is a developer and traveller.',
@@ -409,10 +417,16 @@ var CONTENT = {
       ]
     },
     my_experince_section: {
-      experiences: [{
+      experiences: [{ 
+          title: 'Glossika 萬語科技 全端工程師',
+          date: '2017.7 ~ Present',
+          text: '主要負責使用 Laravel 開發 WebApp 以及利用 Python 開發實作語言學習相關之演算法',
+          link: 'http://glossika.com',
+          link_text: 'Glossika'
+        }, {
           title: 'KPMG 資訊科技諮詢服務 實習研究員',
-          date: '2016.9 ~ Present',
-          text: '現職',
+          date: '2016.9 ~ 2017.6',
+          text: '任職於 KPMG 安侯企管資訊科技諮詢部門 (319C) 之實習。除負責新成立之數位科技安全實驗室 K-lab 之文件建置、弱點掃描及資安稽核報告翻譯外，也參與第一銀行 ATM 事件後續處理及中信 CRS 稅務回報等專案。',
           link: 'https://home.kpmg.com/tw/zh/home.html',
           link_text: 'KPMG Taiwan'
         },
@@ -438,8 +452,8 @@ var CONTENT = {
           link_text: 'PyPAT 公司介紹'
         },
         {
-          title: '2015 - 2016 台灣駭客年會(HITCON) 中英口譯員',
-          date: '2015.8 / 2016.12',
+          title: '2015 - 2017 台灣駭客年會(HITCON) 中英口譯員',
+          date: '2015.8 / 2016.12 / 2017.8',
           text: '提供會議中英文同步口譯',
           link: 'https://hitcon.org/2015/',
           link_text: 'HITCON 介紹'
