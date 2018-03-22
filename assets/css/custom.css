@@ -110,6 +110,10 @@ span.reverse {
     background-color:rgba(0, 0, 0, 0.3);
 }
 
+.work_image {
+    background-color: white;
+}
+
 .work_image:hover {
     background-size: contain;
 }

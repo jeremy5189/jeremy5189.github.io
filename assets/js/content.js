@@ -1,4 +1,4 @@
-var last_update_time = '2017.07.23';
+var last_update_time = '2018.03.22';
 var CONTENT = {
   'en': {
     sidebar: {
@@ -264,6 +264,24 @@ var CONTENT = {
     },
     my_works_section: {
       work_list: [{
+          img_src: 'images/works/glossika.png',
+          title: 'Glossika - 自然而然開口說外語',
+          text: '此網站是我在萬語科技任職時負責設計開發。Glossika 學習法建立在記憶和語言學的科學基礎上，利用間隔重複系統訓練語言學習者的口說能力，讓語言學習變得簡單、快速而且有效率。',
+          enabled: true,
+          buttons: [{
+            link_text: 'Glossika',
+            link_to: 'https://speakerdeck.com/jeremy5189/club-mate-and-hacker-34c3-at-sitcon'
+          }]
+        },{
+          img_src: 'images/works/34c3.jpg',
+          title: 'Club Mate 與德國駭客精神：34C3 大會實錄',
+          text: '此為我於 SITCON 2018 擔任講者之講題，分享 2017 年底帶隊前往萊比錫參與 Chaos Communication Congress 之經驗，與我對於德國駭客精神的認識',
+          enabled: true,
+          buttons: [{
+            link_text: 'Keynote',
+            link_to: 'https://glossika.com'
+          }]
+        }, {
           img_src: 'images/works/pdmod.png',
           title: 'PDModerator - 論壇發言系統',
           text: 'PDModerator 是我為 SITCON 2017 論壇開發的發言系統。PDMod 致力於會議或論壇中提供所有參與者平等的發言權利。與會者透過系統介面提出發言申請後，所提交的資訊會即時送至主持人介面，由主持人審核後排入發言佇列。發言佇列介面會透過投影機展示給所有參與者，即時呈現最近六位發言者、目前發言者以及計時器剩餘時間。',
@@ -383,11 +401,11 @@ var CONTENT = {
     },
     what_i_know: {
       what_i_know: '專業技能',
-      text: '我的專長是網頁後端設計師，但也掌握一些前端技能，以下是我的技能樹',
+      text: '我的專長是網頁後端開發、資訊安全、伺服器管理及前後端整合，以下是我的技能樹：',
       skills: [{
           icon: 'code',
           title: 'PHP / Laravel',
-          text: '五年 Native PHP 開發經驗，一年半 Laravel 開發經驗'
+          text: '五年 Native PHP 開發經驗，兩年半 Laravel 開發經驗'
         },
         {
           icon: 'codepen',
@@ -401,61 +419,85 @@ var CONTENT = {
         },
         {
           icon: 'terminal',
-          title: 'Ubuntu Server / Amazon AWS',
-          text: '四年 Ubuntu Server 及 CentOS 管理經驗，包括使用 Amazon EC2 建置並管理伺服器'
+          title: 'Ubuntu Server / AWS',
+          text: '四年 Ubuntu / 類 Unix 系統經驗。曾使用 AWS 架構 VPC, Cloudfront, Load Balancer, S3, EC2, RDS 等經驗'
         },
         {
           icon: 'desktop',
           title: 'Frontend',
-          text: 'HTML, CSS, Native JS, jQuery, Highcharts, Bootstrap, Vue.js'
+          text: 'Vue.js, HTML, CSS, Native JS, jQuery, Highcharts, Bootstrap'
         },
         {
           icon: 'chain',
           title: 'Other',
-          text: 'Python, MySQL, ElasticSearch, Network administration, C/C++, Java, VB.Net, C#.Net, English (C1), Deutsch(A1.1)'
+          text: 'Python, MySQL, Elastic Search, Network administration, C/C++, VB.Net, C#.Net, English (TOEIC 930), Deutsch(A1.1)'
         }
       ]
     },
     my_experince_section: {
       experiences: [{ 
           title: 'Glossika 萬語科技 全端工程師',
-          date: '2017.7 ~ Present',
-          text: '主要負責使用 Laravel 開發 WebApp 以及利用 Python 開發實作語言學習相關之演算法',
+          date: '2017.4 - Present',
+          list: [
+            '全程參與公司重大業務轉型，負責規劃語言學習 SaaS 服務之系統架構',
+            '領導開發團隊三個月內完成演算法實作、系統架構搭建、前後端開發整合後順利如期上線',
+            '上線第一天營收 150 萬，兩個月後達到每月訂閱營收百萬，平均每日用戶成長率 5%',
+            '採用 Python 實作 NLP 演算法，包括詞頻分析、多語言斷詞及公司研發之語法 (Syntax) 分析',
+            '網頁後端採用 Laravel，前端採用 React，串接 Stripe 實作信用卡訂閱',
+            '伺服器採用 AWS EC2，架構 VPC 並利用雙 Load Balancer 平衡內外部請求與處理 Scaling',
+            '採用 phpunit 執行 Unit Test，Laravel Dusk 執行 E2E Test，並導入 Jenkins CI'
+          ],
           link: 'http://glossika.com',
           link_text: 'Glossika'
         }, {
-          title: 'KPMG 資訊科技諮詢服務 實習研究員',
+          title: 'KPMG 資訊科技諮詢服務 研究員',
           date: '2016.9 ~ 2017.6',
-          text: '任職於 KPMG 安侯企管資訊科技諮詢部門 (319C) 之實習。除負責新成立之數位科技安全實驗室 K-lab 之文件建置、弱點掃描及資安稽核報告翻譯外，也參與第一銀行 ATM 事件後續處理及中信 CRS 稅務回報等專案。',
+          text_bak: '任職於 KPMG 安侯企管資訊科技諮詢部門 (319C) 之實習。除負責新成立之數位科技安全實驗室 K-lab 之文件建置、弱點掃描及資安稽核報告翻譯外，也參與第一銀行 ATM 事件後續處理及中信 CRS 稅務回報等專案。',
+          list: [
+            '任職於資訊科技諮詢部門資安實驗室 (319C K-Lab)，協助實驗室通過 ISO 17025 認證',
+            '曾參與花旗銀行、匯豐銀行及日商瑞穗銀行之資安稽核專案，協助稽核報告之撰寫並負責翻譯',
+            '曾參與第一銀行 ATM 遭國際犯罪盜領事件之資安事件處理，並協助執行資安檢測與風險評估',
+            '曾參與中國信託 CRS 國際共同稅務申報準則之專案。協助分析 XML 格式並提供專業技術建議',
+          ],
           link: 'https://home.kpmg.com/tw/zh/home.html',
           link_text: 'KPMG Taiwan'
         },
         {
           title: '德國科隆科技大學 交換學生',
           date: '2016.3 - 2016.8',
-          text: '主修國際企業',
+          text: '就讀臺灣科技大學資訊管理系時，前往德國科隆科技大學 (Technical University of Cologne) 國際商業系交換一學期。期間修習包括總體經濟、行為經濟、國際行銷及德文 A1 等課程',
           link: 'https://www.th-koeln.de/',
           link_text: '科隆科技大學網站'
         },
         {
-          title: '台北竣盟科技股份有限公司 全端網頁工程師',
+          title: 'Billows 竣盟科技 全端網頁工程師',
           date: '2015.5 - 2016.2',
-          text: '- 使用 Native PHP 及 ElasticSearch 維護公司產品 <br/>- 使用 Laravel 開發新產品 <br/>- 維護並管理 ESXi 虛擬機',
+          text_bak: '- 使用 Native PHP 及 ElasticSearch 維護公司產品 <br/>- 使用 Laravel 開發新產品 <br/>- 維護並管理 ESXi 虛擬機',
+          list: [
+            '負責開發維護企業級資安 SIEM 系統及以 Elastic Search 為基底之巨量日誌儲存分析系統',
+            '曾協助將產品部署於中華電信國分、台灣高鐵、桃園機場、華碩電腦等企業',
+            '曾負責使用 Laravel 開發全新系統日誌收集、分析、可視化以及產生合規報告之系統。並於三個月內完成系統開發、自動化測試及部署後順利交付客戶部署、驗收',
+          ],
           link: 'http://billows.com.tw/',
           link_text: 'Billows 公司介紹'
         },
         {
-          title: '台北桂桂科技(PyPAT)有限公司 數據分析及系統管理',
-          date: '2015.9 - 2016.1',
-          text: '- 使用 Node.js 取得及處理大量專利資料<br/>- 建置並管理 Amazon EC2 及 ElasticSearch 伺服器',
+          title: 'PyPAT 桂桂科技 數據分析及系統管理',
+          date: '2015.9 - 2015.12',
+          text_bak: '- 使用 Node.js 取得及處理大量專利資料<br/>- 建置並管理 Amazon EC2 及 ElasticSearch 伺服器',
+          list: [
+            '協助公司提供專利顧問服務，負責專利資料分析之技術實作',
+            '利用 Node.js 平行化解析大量美國專利局 XML (單檔超過 1GB) 資料並導入 Elastic Search',
+            '透過優化 Elastic Search mapping 後將搜尋、Indexing 速度增加了兩倍',
+          ],
           link: 'http://pypat.com/',
           link_text: 'PyPAT 公司介紹'
         },
         {
-          title: '2015 - 2017 台灣駭客年會(HITCON) 中英口譯員',
+          title: '台灣駭客年會(HITCON) 中英口譯員',
           date: '2015.8 / 2016.12 / 2017.8',
-          text: '提供會議中英文同步口譯',
-          link: 'https://hitcon.org/2015/',
+          text: '提供會議中英文同步口譯/筆譯',
+          link: 'https://hitcon.org',
           link_text: 'HITCON 介紹'
         },
         {
@@ -474,7 +516,7 @@ var CONTENT = {
         },
         {
           title: '學生計算機年會(SITCON) 議程組',
-          date: '2014 - 2016',
+          date: '2014 - 2017',
           text: 'SITCON 學生計算機年會係一學生自發組成的研討會，秉持著以學生為主軸的核心價值，藉以凝聚與傳遞學生的力量',
           link: 'http://sitcon.org/',
           link_text: 'STICON 介紹'

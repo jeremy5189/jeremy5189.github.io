@@ -116,7 +116,12 @@
         <div class="content">
           <div class="inner">
             <h2>{{ exp.title }}</h2>
-            <p>{{{ exp.text }}}</p>
+            <p v-show="exp.text !== ''">{{{ exp.text }}}</p>
+            <p v-show="exp.list.length > 0">
+              <ul>
+                <li v-for="row in exp.list">{{ row }}</li>
+              </ul>
+            </p>
             <ul class="actions">
               <li>
                 <a href="#" class="disable-link button special">{{ exp.date }}</a>
