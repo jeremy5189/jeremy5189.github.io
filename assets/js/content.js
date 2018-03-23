@@ -1,4 +1,4 @@
-var last_update_time = '2018.03.22';
+var last_update_time = '2018.03.24';
 var CONTENT = {
   'en': {
     sidebar: {
@@ -19,7 +19,25 @@ var CONTENT = {
       visit_blog: 'Visit my blog'
     },
     my_works_section: {
-      work_list: [{
+        work_list: [{
+          img_src: 'images/works/glossika.png',
+          title: 'Glossika - Learn a Language the Most Natural Way',
+          text: 'This webiste was designed and developed by me when I was working for Glossika. Glossika’s spaced repetition method delivers fluency by using sound patterns and real-life conversations. With the latest developments in memory and linguistic knowledge, language learning becomes effective, easy, and fast.',
+          enabled: true,
+          buttons: [{
+            link_text: 'Glossika',
+            link_to: 'https://glossika.com'
+          }]
+        },{
+          img_src: 'images/works/34c3.jpg',
+          title: 'Club Mate & German Hacker: 34C3',
+          text: 'My keynote at SITCON 2018. Sharing the expirences of attending the Chaos Communication Congress (34C3) at Leipzig, Germany.',
+          enabled: true,
+          buttons: [{
+            link_text: 'Keynote',
+            link_to: 'https://speakerdeck.com/jeremy5189/club-mate-and-hacker-34c3-at-sitcon'
+          }]
+        }, {
           img_src: 'images/works/pdmod.png',
           title: 'PDModerator - Panel Discussion Moderator',
           text: 'PDModerator (PDMod) is a conference software developed for SITCON 2017 Panel Discussion. PDMod aims to provide equal speaking rights to every attendee in the conference room. Attendee can submit speaker application via the PDMod interface. Which was later review by the moderator and been put on the speaker queue.',
@@ -148,7 +166,7 @@ var CONTENT = {
       skills: [{
           icon: 'code',
           title: 'PHP / Laravel',
-          text: 'Five years of native PHP experience, one and a half year of Laravel framework experience.'
+          text: 'Five years of native PHP experience, two and a half year of Laravel framework experience.'
         },
         {
           icon: 'codepen',
@@ -162,18 +180,18 @@ var CONTENT = {
         },
         {
           icon: 'terminal',
-          title: 'Ubuntu Server / Amazon AWS',
-          text: 'Four years of Ubuntu Server and CentOS experience. Building and maintaining multi-purpose server on Amazon EC2.'
+          title: 'Ubuntu Server / AWS',
+          text: 'Four years of Ubuntu Server / Unix-like experience. Experienced in AWS operation including VPC, Cloudfront, Load Balancer, S3, EC2 and RDS.'
         },
         {
           icon: 'desktop',
           title: 'Frontend',
-          text: 'HTML, CSS, Native JS, jQuery, Highcharts, Bootstrap, Vue.js'
+          text: 'Vue.js, Webpack, HTML, CSS, Native JS, jQuery, Highcharts, Bootstrap'
         },
         {
           icon: 'chain',
           title: 'Other',
-          text: 'Python, MySQL, ElasticSearch, Network administration, C/C++, Java, VB.Net, C#.Net, English (C1), Deutsch(A1.1)'
+          text: 'Python, MySQL, ElasticSearch, Network administration, C/C++, VB.Net, C#.Net, English (TOEIC 930), Deutsch(A1.1)'
         }
       ]
     },
@@ -270,7 +288,7 @@ var CONTENT = {
           enabled: true,
           buttons: [{
             link_text: 'Glossika',
-            link_to: 'https://speakerdeck.com/jeremy5189/club-mate-and-hacker-34c3-at-sitcon'
+            link_to: 'https://glossika.com'
           }]
         },{
           img_src: 'images/works/34c3.jpg',
@@ -279,7 +297,7 @@ var CONTENT = {
           enabled: true,
           buttons: [{
             link_text: 'Keynote',
-            link_to: 'https://glossika.com'
+            link_to: 'https://speakerdeck.com/jeremy5189/club-mate-and-hacker-34c3-at-sitcon'
           }]
         }, {
           img_src: 'images/works/pdmod.png',
