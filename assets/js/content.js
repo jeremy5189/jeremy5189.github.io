@@ -109,7 +109,7 @@ var CONTENT = {
           text: 'Taiwan credit card foreign transaction fee calculator. Automatically retrieve official currency exchange rate from MasterCard, VISA and JCB',
           enabled: true,
           buttons: [{
-              link_to: 'http://paywhich.pw',
+              link_to: 'http://paywhich.patricks.tw',
               link_text: 'Link to PayWhich'
             },
             {
@@ -371,7 +371,7 @@ var CONTENT = {
           text: 'PayWhich 是您在國外使用台灣信用卡的好幫手。PayWhich 會自動取得最新的 VISA / Master / JCB 之匯率，同時儲存您所輸入的信用卡基本資料。並幫助您在結帳時，根據最新國際組織匯率換算，幫助您在多張信用卡中選擇一張最划算的卡片。',
           enabled: true,
           buttons: [{
-            link_to: 'http://paywhich.pw',
+            link_to: 'http://paywhich.patricks.tw',
             link_text: '前往 PayWhich'
           }]
         },
