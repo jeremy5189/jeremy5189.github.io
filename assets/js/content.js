@@ -1,4 +1,4 @@
-var last_update_time = '2018.03.24';
+var last_update_time = '2018.04.05';
 var CONTENT = {
   'en': {
     sidebar: {
@@ -197,64 +197,85 @@ var CONTENT = {
     },
     my_experince_section: {
       experiences: [{ 
-          title: 'Taipei, Taiwan;  Glossika, Full Stack Developer',
-          date: '2017.7 ~ Present',
-          text: 'Full time developer, working on both Laravel for WebApp and developing language traning algorithm with Python.',
+          title: 'Full Stack Developer, Glossika',
+          date: '2017.4 ~ Present',
+          text: '',
+          list: [
+            'Involved in the whole process of a major business reform. Responsible for the design of a new language learning software as a service platform’s system structure.',
+            'Led the development team to complete the implementation of algorithm, cloud server, front-end and back-end development within 3 months.',
+            '$50k revenue is generated on the launch day. Reached $15k monthly ($220k annually) subscription revenue within 2 months. Average user growth rate 5% per day.',
+            'Adopted Python to implement NLP algorithm, Laravel as backend, React as frontend. PHPUnit and Drone as Testing/CI. Leverage AWS VPC, load balancer, RDS and Cloudfront.',
+          ],
           link: 'http://glossika.com',
           link_text: 'Glossika'
         },
         {
-          title: 'Taipei, Taiwan; KPMG Taiwan IT Advisory in Management & Risk Consulting, Intern Researcher',
+          title: 'Researcher, KPMG Taiwan IT Advisory',
           date: '2016.9 ~ 2017.6',
-          text: 'While working in the department (319C). I was engaged in serveral projects, including the ISO-17025 certification process for the KPMG Cyber Security Lab, First bank ATM incident, CTBC Common Reporting Standard (CRS) and was also repsonsible for translation of serveral Infosec auditing reports.',
+          text: '',
+          list: [
+            'Member of the InfoSec Lab (319C). Participated in the ISO 17025 certificating of the lab itself.',
+            'Participated in InfoSec auditing projects such as Citibank (Taiwan), HSBC (Taiwan) and Mizuho Bank (Taipei). Conducted vulnerability assessment. Composed and translated several security audit report.',
+            'Participated in the First Commercial Bank ATM heist incident InfoSec recovery project. ',
+            'Participated in the China Trust Bank (CTBC) Common Reporting Standard (CRS) project.'
+          ],
           link: 'https://home.kpmg.com/tw/zh/home.html',
           link_text: 'KPMG Taiwan'
         },
         {
-          title: 'Cologne, Germany; Technical University of Cologne (TH Köln), Exchange Student',
+          title: 'Exchange Student, Technical University of Cologne (TH Köln)',
           date: '2016.3 - 2016.8',
           text: 'Major: International Business',
           link: 'https://www.th-koeln.de/',
           link_text: 'Visit TH Köln'
         },
         {
-          title: 'Taipei, Taiwan; Billows Technology Co., Ltd, Full Stack Developer',
-          date: '2015.5 - 2016.2',
-          text: '- Maintain existing products with native PHP and ElasticSearch. <br/>- Develop new product with Laravel. <br/>- Maintaining serveral ESXi VM host and client',
+          title: 'Full Stack Developer, Billows Technology Ltd.',
+          date: '2015.5 - 2016.1',
+          text: '',
+          list: [
+            'Responsible for the maintenance of an enterprise grade InfoSec SIEM, and a big-data syslog storage and analysis system based on Elasticsearch.',
+            'Assisted the deployment of our system to clients such as CHT, Taiwan HSR and Taoyuan Int. Airport.',
+            'Responsible for the development of a brand new syslog analysis, visualization and compliance reporting system. Which took 3 months to complete the development, QA and deployment.'
+          ],
           link: 'http://billows.com.tw/',
           link_text: 'Visit Billows'
         },
         {
-          title: 'Taipei, Taiwan; PyPAT IP Services, System Administrator',
-          date: '2015.9 - 2016.1',
-          text: '- Develop tools to extract and process big amount of patent data using Node.js and Python. <br/>- Build and administrate several ElasticSearch server on Amazon EC2.',
+          title: 'Data Analyst & System Operator, PyPAT IP Services',
+          date: '2015.9 - 2015.12',
+          text: '',
+          list: [
+            'Responsible for patent data analysis and visualization.',
+            'Adopted Node.js to parallel process large amount of U.S. patent office XML. Improved the searching and indexing speed by 2 times in the means of optimizing Elasticsearch mapping.'
+          ],
           link: 'http://pypat.com/',
           link_text: 'Visit PyPAT'
         },
         {
-          title: 'Taipei, Taiwan; Hacks in Taiwan Conference (HITCON) 2015 - 2017, Interpreter',
+          title: 'Interpreter, Hacks in Taiwan Conference (HITCON)',
           date: '2015.8 / 2016.12 / 2017.8',
           text: 'Provide simultaneous interpreting for both English and Chinese.',
           link: 'https://hitcon.org/2015/',
           link_text: 'Visit HITCON'
         },
         {
-          title: 'New York, U.S.; National Model United Nations (NMUN) 2015, Head of NTUST delegation',
+          title: 'Head of NTUST delegation, National Model United Nations (NMUN) 2015',
           date: '2015.3.29 - 4.2',
           text: 'As the head of NTUST delegation to NMUN 2015, I\'m responsible for both academic training and administration affairs.',
           link: 'http://www.nmun.org/nmun_ny.html',
           link_text: 'Visit NMUN'
         },
         {
-          title: 'Tokushima, Japan; University of Tokushima, Visiting Student',
+          title: 'Visiting Student, University of Tokushima',
           date: '2014.8.1 - 8.11',
           text: 'I was recommended by the office of International affairs office of NTUST to visit the University of Tokushima in Japan for two weeks.',
           link: 'http://www.tokushima-u.ac.jp/english/',
           link_text: 'Visit Tokushima-U'
         },
         {
-          title: 'Taipei, Students\' Information Technology Conference (STICON), Agenda Committee',
-          date: '2014 - 2016',
+          title: 'Students\' Information Technology Conference (STICON) Agenda Committee',
+          date: '2014 - 2018',
           text: 'The founding purpose and goal of SITCON is to provide a platform for students who are interested in IT to speak and promote their work. Therefore, the Agenda Committee have done our best job to pick and select every outstanding paper which we had received.',
           link: 'http://sitcon.org/',
           link_text: 'Visit STICON'
@@ -459,18 +480,18 @@ var CONTENT = {
           list: [
             '全程參與公司重大業務轉型，負責規劃語言學習 SaaS 服務之系統架構',
             '領導開發團隊三個月內完成演算法實作、系統架構搭建、前後端開發整合後順利如期上線',
-            '上線第一天營收 150 萬，兩個月後達到每月訂閱營收百萬，平均每日用戶成長率 5%',
+            '上線第一天營收 150 萬，兩個月後達到每年訂閱營收 600 萬，平均每日用戶成長率 5%',
             '採用 Python 實作 NLP 演算法，包括詞頻分析、多語言斷詞及公司研發之語法 (Syntax) 分析',
             '網頁後端採用 Laravel，前端採用 React，串接 Stripe 實作信用卡訂閱',
             '伺服器採用 AWS EC2，架構 VPC 並利用雙 Load Balancer 平衡內外部請求與處理 Scaling',
-            '採用 phpunit 執行 Unit Test，Laravel Dusk 執行 E2E Test，並導入 Jenkins CI'
+            '採用 phpunit 執行 Unit Test，Laravel Dusk 執行 E2E Test，並導入 Jenkins/Drone CI'
           ],
           link: 'http://glossika.com',
           link_text: 'Glossika'
         }, {
           title: 'KPMG 資訊科技諮詢服務 研究員',
           date: '2016.9 ~ 2017.6',
-          text_bak: '任職於 KPMG 安侯企管資訊科技諮詢部門 (319C) 之實習。除負責新成立之數位科技安全實驗室 K-lab 之文件建置、弱點掃描及資安稽核報告翻譯外，也參與第一銀行 ATM 事件後續處理及中信 CRS 稅務回報等專案。',
+          text_bak: '',
           list: [
             '任職於資訊科技諮詢部門資安實驗室 (319C K-Lab)，協助實驗室通過 ISO 17025 認證',
             '曾參與花旗銀行、匯豐銀行及日商瑞穗銀行之資安稽核專案，協助稽核報告之撰寫並負責翻譯',
@@ -489,8 +510,8 @@ var CONTENT = {
         },
         {
           title: 'Billows 竣盟科技 全端網頁工程師',
-          date: '2015.5 - 2016.2',
-          text_bak: '- 使用 Native PHP 及 ElasticSearch 維護公司產品 <br/>- 使用 Laravel 開發新產品 <br/>- 維護並管理 ESXi 虛擬機',
+          date: '2015.5 - 2016.1',
+          text_bak: '',
           list: [
             '負責開發維護企業級資安 SIEM 系統及以 Elastic Search 為基底之巨量日誌儲存分析系統',
             '曾協助將產品部署於中華電信國分、台灣高鐵、桃園機場、華碩電腦等企業',
@@ -502,7 +523,7 @@ var CONTENT = {
         {
           title: 'PyPAT 桂桂科技 數據分析及系統管理',
           date: '2015.9 - 2015.12',
-          text_bak: '- 使用 Node.js 取得及處理大量專利資料<br/>- 建置並管理 Amazon EC2 及 ElasticSearch 伺服器',
+          text_bak: '',
           list: [
             '協助公司提供專利顧問服務，負責專利資料分析之技術實作',
             '利用 Node.js 平行化解析大量美國專利局 XML (單檔超過 1GB) 資料並導入 Elastic Search',
@@ -534,7 +555,7 @@ var CONTENT = {
         },
         {
           title: '學生計算機年會(SITCON) 議程組',
-          date: '2014 - 2017',
+          date: '2014 - 2018',
           text: 'SITCON 學生計算機年會係一學生自發組成的研討會，秉持著以學生為主軸的核心價值，藉以凝聚與傳遞學生的力量',
           link: 'http://sitcon.org/',
           link_text: 'STICON 介紹'
