@@ -1,4 +1,4 @@
-var last_update_time = '2018.04.05';
+var last_update_time = '2018.12.15';
 var CONTENT = {
   'en': {
     sidebar: {
@@ -20,6 +20,18 @@ var CONTENT = {
     },
     my_works_section: {
         work_list: [{
+          img_src: 'https://user-images.githubusercontent.com/1984426/50040572-edfb6400-0080-11e9-89cf-d5548908bc8a.jpg',
+          title: 'HITCON DEFENCE Scoreboard',
+          text: 'This scoreboard is developed within a week, used in HITCON Defence enterprise hacking/defence contest.',
+          enabled: true,
+          buttons: [{
+            link_text: 'Main Board',
+            link_to: 'https://github.com/jeremy5189/hitcon-scoreboard'
+          }, {
+            link_text: 'Team Board',
+            link_to: 'https://github.com/jeremy5189/hitcon-scoreboard-team'
+          }]
+        }, {
           img_src: 'images/works/glossika.png',
           title: 'Glossika - Learn a Language the Most Natural Way',
           text: 'This webiste was designed and developed by me when I was working for Glossika. Glossika’s spaced repetition method delivers fluency by using sound patterns and real-life conversations. With the latest developments in memory and linguistic knowledge, language learning becomes effective, easy, and fast.',
@@ -196,9 +208,19 @@ var CONTENT = {
       ]
     },
     my_experince_section: {
-      experiences: [{ 
+      experiences: [{
+          title: 'Full Stack Developer, Cybavo',
+          date: '2018.5 - Present',
+          list: [
+            'Employee number 2 of this blockchain startup, involved in the frontend/backend system design of our cooperated warm wallet and implemented the frontend system structure.',
+            'Kickstarted the Cybavo Wallet frontend SPA with Vue.js and Vuex. Deployed product to multiple crypto currency exchange, including Cobinhood and BitoEX.',
+            'Adopted Mocha and Nightwatch to conduct testing, working with UI designer to improve UI/UX',
+          ],
+          link: 'http://cybavo.com',
+          link_text: 'Cybavo'
+        }, {
           title: 'Full Stack Developer, Glossika',
-          date: '2017.4 ~ Present',
+          date: '2017.4 ~ 2018.5',
           text: '',
           list: [
             'Involved in the whole process of a major business reform. Responsible for the design of a new language learning software as a service platform’s system structure.',
@@ -254,7 +276,7 @@ var CONTENT = {
         },
         {
           title: 'Interpreter, Hacks in Taiwan Conference (HITCON)',
-          date: '2015.8 / 2016.12 / 2017.8',
+          date: '2015.8 / 2016.12 / 2017.8 / 2018.8 / 2018.12',
           text: 'Provide simultaneous interpreting for both English and Chinese.',
           link: 'https://hitcon.org/2015/',
           link_text: 'Visit HITCON'
@@ -303,6 +325,18 @@ var CONTENT = {
     },
     my_works_section: {
       work_list: [{
+          img_src: 'https://user-images.githubusercontent.com/1984426/50040572-edfb6400-0080-11e9-89cf-d5548908bc8a.jpg',
+          title: 'HITCON DEFENCE 企業攻防賽計分板',
+          text: '此計分板於短短一週內開發完成，提供 HITCON DEFENCE 企業攻防賽當天顯示各隊伍分數及攻擊狀態之用。',
+          enabled: true,
+          buttons: [{
+            link_text: '主板',
+            link_to: 'https://github.com/jeremy5189/hitcon-scoreboard'
+          }, {
+            link_text: '各隊伍',
+            link_to: 'https://github.com/jeremy5189/hitcon-scoreboard-team'
+          }]
+        }, {
           img_src: 'images/works/glossika.png',
           title: 'Glossika - 自然而然開口說外語',
           text: '此網站是我在萬語科技任職時負責設計開發。Glossika 學習法建立在記憶和語言學的科學基礎上，利用間隔重複系統訓練語言學習者的口說能力，讓語言學習變得簡單、快速而且有效率。',
@@ -474,16 +508,27 @@ var CONTENT = {
       ]
     },
     my_experince_section: {
-      experiences: [{ 
+      experiences: [{
+          title: 'Cybavo 博歐科技 全端工程師',
+          date: '2018.5 - Present',
+          list: [
+            '公司初創時期加入，負責規劃企業區塊鏈溫錢包的前端架構及 API，並實作前端架構',
+            '部屬產品於知名虛擬貨幣交易所如 Cobinhood 和 BitoEX',
+            '採用 Vue.js 架構 SPA，並採用 Vuex 連接後端與區塊鏈 API，同時兼顧加密機制與通訊安全',
+            '採用 Mocha 實作 Unit test，Nightwatch 實作 E2E test，並與設計師合作進一步加強產品 UI/UX',
+          ],
+          link: 'http://cybavo.com',
+          link_text: 'Cybavo'
+        }, {
           title: 'Glossika 萬語科技 全端工程師',
-          date: '2017.4 - Present',
+          date: '2017.4 - 2018.5',
           list: [
             '全程參與公司重大業務轉型，負責規劃語言學習 SaaS 服務之系統架構',
             '領導開發團隊三個月內完成演算法實作、系統架構搭建、前後端開發整合後順利如期上線',
             '上線第一天營收 150 萬，兩個月後達到每年訂閱營收 600 萬，平均每日用戶成長率 5%',
             '採用 Python 實作 NLP 演算法，包括詞頻分析、多語言斷詞及公司研發之語法 (Syntax) 分析',
             '網頁後端採用 Laravel，前端採用 React，串接 Stripe 實作信用卡訂閱',
-            '伺服器採用 AWS EC2，架構 VPC 並利用雙 Load Balancer 平衡內外部請求與處理 Scaling',
+            '伺服器採用 AWS EC2，架構 VPC 並利用雙 LB 平衡內外部請求，並利用 CF CDN 處理全球流量',
             '採用 phpunit 執行 Unit Test，Laravel Dusk 執行 E2E Test，並導入 Jenkins/Drone CI'
           ],
           link: 'http://glossika.com',
@@ -534,7 +579,7 @@ var CONTENT = {
         },
         {
           title: '台灣駭客年會(HITCON) 中英口譯員',
-          date: '2015.8 / 2016.12 / 2017.8',
+          date: '2015.8 / 2016.12 / 2017.8 / 2018.8 / 2018.12',
           text: '提供會議中英文同步口譯/筆譯',
           link: 'https://hitcon.org',
           link_text: 'HITCON 介紹'
