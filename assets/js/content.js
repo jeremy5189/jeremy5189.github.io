@@ -210,7 +210,7 @@ var CONTENT = {
     my_experince_section: {
       experiences: [{
           title: 'Full Stack Developer, Cybavo',
-          date: '2018.5 - Present',
+          date: '2018.5 - 2018.11',
           list: [
             'Employee number 2 of this blockchain startup, involved in the frontend/backend system design of our cooperated warm wallet and implemented the frontend system structure.',
             'Kickstarted the Cybavo Wallet frontend SPA with Vue.js and Vuex. Deployed product to multiple crypto currency exchange, including Cobinhood and BitoEX.',
@@ -510,7 +510,7 @@ var CONTENT = {
     my_experince_section: {
       experiences: [{
           title: 'Cybavo 博歐科技 全端工程師',
-          date: '2018.5 - Present',
+          date: '2018.5 - 2018.11',
           list: [
             '公司初創時期加入，負責規劃企業區塊鏈溫錢包的前端架構及 API，並實作前端架構',
             '部屬產品於知名虛擬貨幣交易所如 Cobinhood 和 BitoEX',
