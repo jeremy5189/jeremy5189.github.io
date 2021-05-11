@@ -19,7 +19,8 @@ var CONTENT = {
       visit_blog: 'Visit my blog'
     },
     my_works_section: {
-        work_list: [{
+        work_list: [
+        {
           img_src: 'https://user-images.githubusercontent.com/1984426/50040572-edfb6400-0080-11e9-89cf-d5548908bc8a.jpg',
           title: 'HITCON DEFENCE Scoreboard',
           text: 'This scoreboard is developed within a week, used in HITCON Defence enterprise hacking/defence contest.',
@@ -31,7 +32,8 @@ var CONTENT = {
             link_text: 'Team Board',
             link_to: 'https://github.com/jeremy5189/hitcon-scoreboard-team'
           }]
-        }, {
+        },
+        {
           img_src: 'images/works/glossika.png',
           title: 'Glossika - Learn a Language the Most Natural Way',
           text: 'This webiste was designed and developed by me when I was working for Glossika. Glossika’s spaced repetition method delivers fluency by using sound patterns and real-life conversations. With the latest developments in memory and linguistic knowledge, language learning becomes effective, easy, and fast.',
@@ -40,7 +42,8 @@ var CONTENT = {
             link_text: 'Glossika',
             link_to: 'https://glossika.com'
           }]
-        },{
+        },
+        {
           img_src: 'images/works/34c3.jpg',
           title: 'Club Mate & German Hacker: 34C3',
           text: 'My keynote at SITCON 2018. Sharing the expirences of attending the Chaos Communication Congress (34C3) at Leipzig, Germany.',
@@ -49,7 +52,8 @@ var CONTENT = {
             link_text: 'Keynote',
             link_to: 'https://speakerdeck.com/jeremy5189/club-mate-and-hacker-34c3-at-sitcon'
           }]
-        }, {
+        },
+        {
           img_src: 'images/works/pdmod.png',
           title: 'PDModerator - Panel Discussion Moderator',
           text: 'PDModerator (PDMod) is a conference software developed for SITCON 2017 Panel Discussion. PDMod aims to provide equal speaking rights to every attendee in the conference room. Attendee can submit speaker application via the PDMod interface. Which was later review by the moderator and been put on the speaker queue.',
@@ -61,7 +65,8 @@ var CONTENT = {
             link_text: 'Keynote',
             link_to: 'https://speakerdeck.com/jeremy5189/how-we-hacked-a-forum'
           }]
-        }, {
+        },
+        {
           img_src: 'images/works/booking-hack.jpg',
           title: 'Booking.com Taipei Hack 2nd Prize',
           text: 'In the two days hackathon, I lead team 1 along with 4 member and developed a hotel version of doodle with React, Lumen and Native Android.',
@@ -70,20 +75,6 @@ var CONTENT = {
             link_text: 'Keynote',
             link_to: 'https://speakerdeck.com/jeremy5189/bdecisive-booking-dot-com-taipei-hack-2nd-prize'
           }]
-        }, {
-          img_src: 'images/works/vegeholic.png',
-          title: 'Vegeholic Vegan Recipe',
-          text: 'Attracts over 20k unique visitor in the first 2 weeks. I developed a part of the front-end and the whole back-end system of this recipe sharing website. Running Laravel on AWS EC2 along with RDS and storing user uploaded image in S3 and delivered by Cloudfront.',
-          enabled: true,
-          buttons: [{
-              link_text: 'Vegeholic',
-              link_to: 'https://vegeholic.asia/'
-            },
-            {
-              link_text: 'Facebook',
-              link_to: 'https://www.facebook.com/vegeholic.asia'
-            }
-          ]
         },
         {
           img_src: 'images/works/cloudmun_gsl.png',
@@ -116,21 +107,6 @@ var CONTENT = {
           ]
         },
         {
-          img_src: 'images/works/paywhich_icon_gray.png',
-          title: 'PayWhich WebApp',
-          text: 'Taiwan credit card foreign transaction fee calculator. Automatically retrieve official currency exchange rate from MasterCard, VISA and JCB',
-          enabled: true,
-          buttons: [{
-              link_to: 'http://paywhich.patricks.tw',
-              link_text: 'Link to PayWhich'
-            },
-            {
-              link_text: 'Github',
-              link_to: 'https://github.com/jeremy5189/PayWhich'
-            }
-          ]
-        },
-        {
           img_src: 'images/works/hahow-backend.png',
           title: 'Laravel Backend Web Development for Beginner (Online Video Course)',
           text: 'Achieved over 250 student signup for this online video course within 30 days.',
@@ -159,16 +135,6 @@ var CONTENT = {
             link_to: 'http://lost.ntust.edu.tw',
             link_text: 'Visit system'
           }]
-        },
-        {
-          img_src: 'images/works/bi_charts.jpg',
-          title: 'Billows Security Portal / Log Master',
-          text: 'Company product, see website for more detail.',
-          enabled: true,
-          buttons: [{
-            link_to: 'http://billows.com.tw/',
-            link_text: 'Product details'
-          }]
         }
       ]
     },
@@ -178,22 +144,22 @@ var CONTENT = {
       skills: [{
           icon: 'code',
           title: 'PHP / Laravel',
-          text: 'Five years of native PHP experience, two and a half year of Laravel framework experience.'
+          text: 'Native PHP experience and Laravel framework experience.'
         },
         {
           icon: 'codepen',
           title: 'Node.js',
-          text: 'Two years of Node.js experience, both backend development (Express.js, Sails.js) and data analysis.'
+          text: 'Node.js experience, both backend development (Express.js, Sails.js) and data analysis.'
         },
         {
           icon: 'code-fork',
           title: 'Git',
-          text: 'Four years of git version control experience. Collaborating with three commerical team up to ten developer.'
+          text: 'Git version control experience. Collaborating with three commerical team up to ten developer.'
         },
         {
           icon: 'terminal',
           title: 'Ubuntu Server / AWS',
-          text: 'Four years of Ubuntu Server / Unix-like experience. Experienced in AWS operation including VPC, Cloudfront, Load Balancer, S3, EC2 and RDS.'
+          text: 'Ubuntu Server / Unix-like experience. Experienced in AWS operation including VPC, Cloudfront, Load Balancer, S3, EC2 and RDS.'
         },
         {
           icon: 'desktop',
@@ -203,7 +169,7 @@ var CONTENT = {
         {
           icon: 'chain',
           title: 'Other',
-          text: 'Python, MySQL, ElasticSearch, Network administration, C/C++, VB.Net, C#.Net, English (TOEIC 930), Deutsch(A1.1)'
+          text: 'Python (Flask, Django), MySQL, ElasticSearch, Network administration, C/C++, VB.Net, C#.Net, English (TOEIC 930), Deutsch(A1.1)'
         }
       ]
     },
@@ -262,17 +228,6 @@ var CONTENT = {
           ],
           link: 'http://billows.com.tw/',
           link_text: 'Visit Billows'
-        },
-        {
-          title: 'Data Analyst & System Operator, PyPAT IP Services',
-          date: '2015.9 - 2015.12',
-          text: '',
-          list: [
-            'Responsible for patent data analysis and visualization.',
-            'Adopted Node.js to parallel process large amount of U.S. patent office XML. Improved the searching and indexing speed by 2 times in the means of optimizing Elasticsearch mapping.'
-          ],
-          link: 'http://pypat.com/',
-          link_text: 'Visit PyPAT'
         },
         {
           title: 'Interpreter, Hacks in Taiwan Conference (HITCON)',
@@ -375,20 +330,6 @@ var CONTENT = {
             link_text: 'Keynote',
             link_to: 'https://speakerdeck.com/jeremy5189/bdecisive-booking-dot-com-taipei-hack-2nd-prize'
           }]
-        }, {
-          img_src: 'images/works/vegeholic.png',
-          title: 'Vegeholic 全植食尚',
-          text: 'Vegeholic 上線半個月即吸引超過 2 萬不重複訪客。我負責建置此食譜分享平台之後端基礎建設及一部分的前端設計，使用 AWS EC2 執行 Laravel，採用 AWS RDS 資料庫以及利用 S3 和 Cloudfront 儲存使用者上傳之圖片。目前仍持續維護並加上新功能。',
-          enabled: true,
-          buttons: [{
-              link_text: 'Vegeholic',
-              link_to: 'https://vegeholic.asia/'
-            },
-            {
-              link_text: 'Facebook',
-              link_to: 'https://www.facebook.com/vegeholic.asia'
-            }
-          ]
         },
         {
           img_src: 'images/works/cloudmun_gsl.png',
@@ -421,16 +362,6 @@ var CONTENT = {
           ]
         },
         {
-          img_src: 'images/works/paywhich_icon_gray.png',
-          title: 'PayWhich WebApp',
-          text: 'PayWhich 是您在國外使用台灣信用卡的好幫手。PayWhich 會自動取得最新的 VISA / Master / JCB 之匯率，同時儲存您所輸入的信用卡基本資料。並幫助您在結帳時，根據最新國際組織匯率換算，幫助您在多張信用卡中選擇一張最划算的卡片。',
-          enabled: true,
-          buttons: [{
-            link_to: 'http://paywhich.patricks.tw',
-            link_text: '前往 PayWhich'
-          }]
-        },
-        {
           img_src: 'images/works/hahow-backend.png',
           title: 'Hahow Laravel 5.3 後端網站設計入門課程講師',
           text: '線上課程募資開始後 10 天即達標，募資結束後募得 300 位學生，目前已順利開課',
@@ -459,16 +390,6 @@ var CONTENT = {
             link_to: 'http://lost.ntust.edu.tw',
             link_text: '前往系統'
           }]
-        },
-        {
-          img_src: 'images/works/bi_charts.jpg',
-          title: '竣盟科技 Security Portal / Log Master',
-          text: '任職於竣盟科技時所負責的產品，細節請參考公司網站',
-          enabled: true,
-          buttons: [{
-            link_to: 'http://billows.com.tw/',
-            link_text: '前往公司網站'
-          }]
         }
       ]
     },
@@ -478,22 +399,22 @@ var CONTENT = {
       skills: [{
           icon: 'code',
           title: 'PHP / Laravel',
-          text: '五年 Native PHP 開發經驗，兩年半 Laravel 開發經驗'
+          text: 'Native PHP, Laravel 開發經驗'
         },
         {
           icon: 'codepen',
           title: 'Node.js',
-          text: '兩年 Node.js 開發經驗，曾使用 Sails.js, Express.js 開發網頁後端，也曾使用 Node.js 做數據分析'
+          text: 'Node.js 開發經驗，曾使用 Sails.js, Express.js 開發網頁後端，也曾使用 Node.js 做數據分析'
         },
         {
           icon: 'code-fork',
           title: 'Git',
-          text: '四年 Git 版本控制經驗，曾與三個商業團隊、十個以上的開發者一同協作專案'
+          text: 'Git 版本控制經驗，曾與三個商業團隊、十個以上的開發者一同協作專案'
         },
         {
           icon: 'terminal',
           title: 'Ubuntu Server / AWS',
-          text: '四年 Ubuntu / 類 Unix 系統經驗。曾使用 AWS 架構 VPC, Cloudfront, Load Balancer, S3, EC2, RDS 等經驗'
+          text: 'Ubuntu / 類 Unix 系統經驗。曾使用 AWS 架構 VPC, Cloudfront, Load Balancer, S3, EC2, RDS 等經驗'
         },
         {
           icon: 'desktop',
@@ -503,7 +424,7 @@ var CONTENT = {
         {
           icon: 'chain',
           title: 'Other',
-          text: 'Python, MySQL, Elastic Search, Network administration, C/C++, VB.Net, C#.Net, English (TOEIC 930), Deutsch(A1.1)'
+          text: 'Python (Flask, Django), MySQL, Elastic Search, Network administration, C/C++, VB.Net, C#.Net, English (TOEIC 930), Deutsch(A1.1)'
         }
       ]
     },
@@ -564,18 +485,6 @@ var CONTENT = {
           ],
           link: 'http://billows.com.tw/',
           link_text: 'Billows 公司介紹'
-        },
-        {
-          title: 'PyPAT 桂桂科技 數據分析及系統管理',
-          date: '2015.9 - 2015.12',
-          text_bak: '',
-          list: [
-            '協助公司提供專利顧問服務，負責專利資料分析之技術實作',
-            '利用 Node.js 平行化解析大量美國專利局 XML (單檔超過 1GB) 資料並導入 Elastic Search',
-            '透過優化 Elastic Search mapping 後將搜尋、Indexing 速度增加了兩倍',
-          ],
-          link: 'http://pypat.com/',
-          link_text: 'PyPAT 公司介紹'
         },
         {
           title: '台灣駭客年會(HITCON) 中英口譯員',
